@@ -1,6 +1,6 @@
 # Dr Katz Professional Therapist fan page source
 
-This repo is the source code for https://neocities.org/chafecity/drkatz, a fan page
+This repo is the source code for https://chafecity.neocities.org/drkatz, a fan page
 listing all Dr. Katz animated episodes, along with guests, and links to highlights.
 
 This uses a simple static site generator (generate_site.go). The data is stored in
