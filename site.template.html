@@ -100,7 +100,11 @@
               <td rowspan="{{ $episode.RowSpan }}">
                   <ul>
                       <li class="title">
+                        {{ if $episode.Link }}
                           <a href="{{ $episode.Link }}">{{ $episode.Title }}</a>
+                        {{ else }}
+                          {{ $episode.Title }}
+                        {{ end }}
                       </li>
                       <li>{{ $episode.Date }}</li>
                       <li>{{ $episode.Code }}</li>

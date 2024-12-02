@@ -1,6 +1,6 @@
 episodes:
   - title: "Pot-Bellied Pigs"
-    link: "https://www.youtube.com/watch?v=CWaNSfkWb6s"
+    link: "https://www.youtube.com/watch?v=CWaNSfkWb6s&t=0"
     code: "S1E1"
     date: "May 28, 1995"
     rows:
@@ -22,6 +22,7 @@ episodes:
             text: "Dom worries about hair loss and toupees."
 
   - title: "Pretzelkins"
+    link: "https://www.youtube.com/watch?v=PjFVzBg4rpA&t=0"
     code: "S1E2"
     date: "June 4, 1995"
     rows:
@@ -31,10 +32,14 @@ episodes:
           - text: "Dr. Katz deals with his own depressed feelings."
       - guest: "Ray Romano"
         thumbnail: "s1e2i2.png"
+        highlights:
+          - link: "https://youtu.be/PjFVzBg4rpA?t=101"
+            text: "Ray mans the office phone."
       - guest: "Wendy Liebman"
         thumbnail: "s1e2i3.png"
 
   - title: "Bully"
+    link: "https://www.youtube.com/watch?v=U3taMKPt8QQ&t=0"
     code: "S1E3"
     date: "June 11, 1995"
     rows:
@@ -48,18 +53,22 @@ episodes:
         thumbnail: "s1e3_joy_behar.png"
 
   - title: "Cholesterol"
+    link: "https://www.youtube.com/watch?v=ogrGdX19Ubo&t=0"
     code: "S1E4"
     date: "June 18, 1995"
     rows:
-      - highlights:
+      - thumbnail: "s1e4_worried.png"
+        highlights:
           - text: "Dr. Katz starts to train with Julie the bartender."
-        thumbnail: "s1e4_worried.png"
+          - text: "Dr. Katz and Stanley chat in spanish."
+            link: "https://www.youtube.com/watch?v=ogrGdX19Ubo&t=0"
       - guest: "Dave Attell"
         thumbnail: "s1e4_dave_attell.png"
       - guest: "Laura Kightlinger"
         thumbnail: "s1e4_laura_kightlinger.png"
 
   - title: "Everybody's Got a Tushy"
+    link: "https://www.youtube.com/watch?v=nR_5EDAg2zM&t=0"
     code: "S1E5"
     date: "June 25, 1995"
     rows:
@@ -72,6 +81,7 @@ episodes:
         thumbnail: "s1e5_larry_miller.png"
 
   - title: "Family Car"
+    link: "https://www.youtube.com/watch?v=CCHMuuP8BpI&t=0"
     code: "S1E6"
     date: "July 2, 1995"
     rows:
@@ -84,6 +94,7 @@ episodes:
         thumbnail: "s1e6_andy_kindler.png"
 
   - title: "Bystander Ben"
+    link: "https://www.youtube.com/watch?v=3FDI5oxw_Mk&t=0"
     code: "S2E1"
     date: "October 15, 1995"
     rows:
@@ -96,6 +107,7 @@ episodes:
         thumbnail: "s2e1_steven_wright.png"
 
   - title: "Real Estate"
+    link: "https://www.youtube.com/watch?v=tmIp54-i0yI&t=0"
     code: "S2E2"
     date: "October 29, 1995"
     rows:
@@ -105,6 +117,7 @@ episodes:
       - guest: "Rita Rudner"
 
   - title: "Glasses"
+    link: "https://www.youtube.com/watch?v=Pws9N_-kuE4&t=0"
     code: "S2E3"
     date: "November 12, 1995"
     rows:
@@ -114,6 +127,7 @@ episodes:
       - guest: "Emo Philips"
 
   - title: "Office Management"
+    link: "https://www.youtube.com/watch?v=YCDEftP9bIs&t=0"
     code: "S2E4"
     date: "December 17, 1995"
     rows:
@@ -123,6 +137,7 @@ episodes:
       - guest: "Carol Leifer"
 
   - title: "Bees and SIDS"
+    link: "https://www.youtube.com/watch?v=kuS8T9EFTJc&t=0"
     code: "S2E5"
     date: "January 14, 1996"
     rows:
@@ -133,6 +148,7 @@ episodes:
       - guest: "Louis C.K."
 
   - title: "Drinky the Drunk Guy"
+    link: "https://www.youtube.com/watch?v=E3VnPGgwZFk&t=0"
     code: "S2E6"
     date: "January 21, 1996"
     rows:
@@ -142,6 +158,7 @@ episodes:
       - guest: "Janeane Garofalo"
 
   - title: "Sticky Notes"
+    link: "https://www.youtube.com/watch?v=ncDA1q6x778&t=0"
     code: "S2E7"
     date: "April 7, 1996"
     rows:
@@ -151,6 +168,7 @@ episodes:
       - guest: "Judy Tenuta"
 
   - title: "It Takes Some Getting Used To"
+    link: "https://www.youtube.com/watch?v=1dqezQ0i5ok&t=0"
     code: "S2E8"
     date: "April 14, 1996"
     rows:
@@ -160,6 +178,7 @@ episodes:
       - guest: "Lew Schneider"
 
   - title: "The Particle Board"
+    link: "https://www.youtube.com/watch?v=rQYaqw3o3WA&t=0"
     code: "S2E9"
     date: "April 21, 1996"
     rows:
@@ -169,6 +188,7 @@ episodes:
       - guest: "Marc Maron"
 
   - title: "A Journey for the Betterment of People"
+    link: "https://www.youtube.com/watch?v=GlXpJ2SF5hc&t=0"
     code: "S2E10"
     date: "April 28, 1996"
     rows:
@@ -178,6 +198,7 @@ episodes:
       - guest: "Todd Barry"
 
   - title: "Theory of Intelligence"
+    link: "https://www.youtube.com/watch?v=qd93vhN_94w&t=0"
     code: "S2E11"
     date: "May 5, 1996"
     rows:
@@ -187,6 +208,7 @@ episodes:
       - guest: "Brian Kiley"
 
   - title: "Henna"
+    link: "https://www.youtube.com/watch?v=3tEv90CA_gs&t=0"
     code: "S2E12"
     date: "May 12, 1996"
     rows:
@@ -196,6 +218,7 @@ episodes:
       - guest: "Fred Stoller"
 
   - title: "ESP"
+    link: "https://www.youtube.com/watch?v=KqXwwIkidPw&t=0"
     code: "S2E13"
     date: "May 26, 1996"
     rows:
@@ -205,15 +228,19 @@ episodes:
       - guest: "Tom Agna"
 
   - title: "Monte Carlo"
+    link: "https://www.youtube.com/watch?v=3UFe51o5azc&t=0"
     code: "S3E1"
     date: "October 6, 1996"
     rows:
       - highlights:
           - text: "Ben starts a celebrity limousine service and runs it from his dad's office."
+          - text: "There is confusion about Monte Carlo."
+            link: "https://youtu.be/3UFe51o5azc?t=115"
       - guest: "Richard Jeni"
       - guest: "Winona Ryder"
 
   - title: "Blind Date"
+    link: "https://www.youtube.com/watch?v=JkhkRkSO6WI&t=0"
     code: "S3E2"
     date: "October 13, 1996"
     rows:
@@ -223,6 +250,7 @@ episodes:
       - guest: "Cathy Ladman"
 
   - title: "Fructose"
+    link: "https://www.youtube.com/watch?v=JSCkcKPDma8&t=0"
     code: "S3E3"
     date: "October 20, 1996"
     rows:
@@ -234,6 +262,7 @@ episodes:
       - guest: "Bob Odenkirk"
 
   - title: "Earring"
+    link: "https://www.youtube.com/watch?v=Y8vomt5oHmo&t=0"
     code: "S3E4"
     date: "October 27, 1996"
     rows:
@@ -243,6 +272,7 @@ episodes:
       - guest: "Kevin Nealon"
 
   - title: "Koppleman and Katz"
+    link: "https://www.youtube.com/watch?v=YUVqMFVeQVg&t=0"
     code: "S3E5"
     date: "November 3, 1996"
     rows:
@@ -253,6 +283,7 @@ episodes:
       - guest: "Jeff Stilson"
 
   - title: "Guess Who"
+    link: "https://www.youtube.com/watch?v=j0Vf4pKAioE&t=0"
     code: "S3E6"
     date: "January 5, 1997"
     rows:
@@ -262,6 +293,7 @@ episodes:
       - guest: "Ritch Shydner"
 
   - title: "Day Planner"
+    link: "https://www.youtube.com/watch?v=8PMESZh6nzk&t=0"
     code: "S3E7"
     date: "January 12, 1997"
     rows:
@@ -272,7 +304,8 @@ episodes:
       - guest: "Jake Johannsen"
 
   - title: "Studio Guy"
-    code: "S3E8"
+    link: "https://www.youtube.com/watch?v=v59eTEXd78c&t=0"
+    code: "S3E9"
     date: "January 19, 1997"
     rows:
       - highlights:
@@ -282,7 +315,8 @@ episodes:
       - guest: "Fred Stoller"
 
   - title: "Mourning Person"
-    code: "S3E9"
+    link: "https://www.youtube.com/watch?v=CtqIx-t6yOk&t=0"
+    code: "S3E8"
     date: "January 26, 1997"
     rows:
       - highlights:
@@ -291,6 +325,7 @@ episodes:
       - guest: "Margaret Smith"
 
   - title: "L'il Helper"
+    link: "https://www.youtube.com/watch?v=gYKR5_FguvQ&t=0"
     code: "S3E10"
     date: "February 2, 1997"
     rows:
@@ -301,6 +336,7 @@ episodes:
       - guest: "Lizz Winstead"
 
   - title: "Big Fat Slug"
+    link: "https://www.youtube.com/watch?v=zqXGJ9KMC3Y&t=0"
     code: "S3E11"
     date: "February 9, 1997"
     rows:
@@ -310,6 +346,7 @@ episodes:
       - guest: "David Cross"
 
   - title: "New Phone System"
+    link: "https://www.youtube.com/watch?v=9IGM6j1wdYE&t=0"
     code: "S3E12"
     date: "March 2, 1997"
     rows:
@@ -319,6 +356,7 @@ episodes:
       - guest: "Andy Kindler"
 
   - title: "Reunion"
+    link: "https://www.youtube.com/watch?v=bLROwHMtI9o&t=0"
     code: "S3E13"
     date: "March 9, 1997"
     rows:
@@ -328,6 +366,7 @@ episodes:
       - guest: "Lisa Kudrow"
 
   - title: "Ben Treats"
+    link: "https://www.youtube.com/watch?v=m3mSAFeUrQ4&t=0"
     code: "S4E1"
     date: "May 9, 1997"
     rows:
@@ -337,6 +376,7 @@ episodes:
       - guest: "Jim Gaffigan"
 
   - title: "Memoirs"
+    link: "https://www.youtube.com/watch?v=J5O7VUEiGlM&t=0"
     code: "S4E2"
     date: "June 22, 1997"
     rows:
@@ -347,6 +387,7 @@ episodes:
       - guest: "Fred Stoller"
 
   - title: "Electric Bike"
+    link: "https://www.youtube.com/watch?v=bfYdLlBJ2VQ&t=0"
     code: "S4E3"
     date: "June 29, 1997"
     rows:
@@ -356,6 +397,7 @@ episodes:
       - guest: "Dave Chappelle"
 
   - title: "Broadcaster Ben"
+    link: "https://www.youtube.com/watch?v=ZmmQIYlM1qs&t=0"
     code: "S4E4"
     date: "July 6, 1997"
     rows:
@@ -365,6 +407,7 @@ episodes:
       - guest: "Dom Irrera"
 
   - title: "Trash Day"
+    link: "https://www.youtube.com/watch?v=SMmiPbh830Y&t=0"
     code: "S4E5"
     date: "July 13, 1997"
     rows:
@@ -375,6 +418,7 @@ episodes:
       - guest: "Lew Schneider"
 
   - title: "Sharon Meyers"
+    link: "https://www.youtube.com/watch?v=-WD0_CWJu_U&t=0"
     code: "S4E6"
     date: "July 27, 1997"
     rows:
@@ -385,6 +429,7 @@ episodes:
       - guest: "Todd Barry"
 
   - title: "Mask"
+    link: "https://www.youtube.com/watch?v=7qGESJf8qus&t=0"
     code: "S4E7"
     date: "August 3, 1997"
     rows:
@@ -394,6 +439,7 @@ episodes:
       - guest: "Mark Schiff"
 
   - title: "Closets"
+    link: "https://www.youtube.com/watch?v=ptmwDAg-Fls&t=0"
     code: "S4E8"
     date: "August 10, 1997"
     rows:
@@ -403,6 +449,7 @@ episodes:
       - guest: "Michael Rowe"
 
   - title: "Wild Weekend"
+    link: "https://www.youtube.com/watch?v=Hb53LO8OpEg&t=0"
     code: "S4E9"
     date: "August 17, 1997"
     rows:
@@ -412,6 +459,7 @@ episodes:
       - guest: "Robert Schimmel"
 
   - title: "Chopper"
+    link: "https://www.youtube.com/watch?v=I2h0QEC42bQ&t=0"
     code: "S4E10"
     date: "August 24, 1997"
     rows:
@@ -421,6 +469,7 @@ episodes:
       - guest: "Conan O'Brien"
 
   - title: "Alibi"
+    link: "https://www.youtube.com/watch?v=U_lN6_eRkG0&t=0"
     code: "S4E11"
     date: "August 31, 1997"
     rows:
@@ -430,6 +479,7 @@ episodes:
       - guest: "Tony V."
 
   - title: "Ben-Centennial"
+    link: "https://www.youtube.com/watch?v=Ie_KVeWkBPo&t=0"
     code: "S4E12"
     date: "September 7, 1997"
     rows:
@@ -439,6 +489,7 @@ episodes:
       - guest: "The Smothers Brothers"
 
   - title: "Undercover"
+    link: "https://www.youtube.com/watch?v=0wGWIgVvzjs&t=0"
     code: "S4E13"
     date: "September 14, 1997"
     rows:
@@ -449,6 +500,7 @@ episodes:
       - guest: "Ron Lynch"
 
   - title: "Old Man"
+    link: "https://www.youtube.com/watch?v=aVqJTmaWJHQ&t=0"
     code: "S5E1"
     date: "June 15, 1998"
     rows:
@@ -459,6 +511,7 @@ episodes:
       - guest: "Jim Gaffigan"
 
   - title: "Fanny Pack"
+    link: "https://www.youtube.com/watch?v=aJlKDkXoa0I&t=0"
     code: "S5E2"
     date: "June 22, 1998"
     rows:
@@ -468,6 +521,7 @@ episodes:
       - guest: "James Leemer"
 
   - title: "Metaphors"
+    link: "https://www.youtube.com/watch?v=L6V0ZgCPvh8&t=0"
     code: "S5E3"
     date: "June 29, 1998"
     rows:
@@ -477,6 +531,7 @@ episodes:
       - guest: "David Duchovny"
 
   - title: "Movies"
+    link: "https://www.youtube.com/watch?v=UK1zaQD5Mmk&t=0"
     code: "S5E4"
     date: "July 6, 1998"
     rows:
@@ -485,7 +540,142 @@ episodes:
       - guest: "Sam Brown"
       - guest: "Patton Oswalt"
 
+  - title: "Ticket"
+    link: "https://www.youtube.com/watch?v=Xg5q-nkLRj0&t=0"
+    code: "S5E5"
+    date: "July 15, 1998"
+    rows:
+      - highlights:
+          - text: "Dr. Katz is given a ticket for failing to stop at a stop sign."
+          - text: "Laura dates a dentist."
+      - guest: "Ben Stiller"
+      - guest: "Jann Karam"
+
+  - title: "Phone Luv"
+    link: "https://www.youtube.com/watch?v=4KrSkmFWYzo&t=0"
+    code: "S5E6"
+    date: "July 20, 1998"
+    rows:
+      - highlights:
+          - text: "Ben becomes interested in a telemarketing woman named Cindy."
+      - guest: "Mitch Fatel"
+      - guest: "John Pinette"
+
+  - title: "Chain Letter"
+    link: "https://www.youtube.com/watch?v=SF4VFLR_iWk&t=0"
+    code: "S5E7"
+    date: "July 27, 1998"
+    rows:
+      - highlights:
+          - text: "Ben receives a chain letter."
+          - text: "Dr. Katz sets up a retirement fund for Laura."
+      - guest: "Gilbert Gottfried"
+      - guest: "Wendy Liebman"
+
+  - title: "Babysitting Ben"
+    link: "https://www.youtube.com/watch?v=XOQ_fjCB5Fo&t=0"
+    code: "S5E8"
+    date: "August 3, 1998"
+    rows:
+      - highlights:
+          - text: "Ben babysits the neighbor's four-year-old son."
+          - text: "Laura tells Dr. Katz that the office received a death threat."
+      - guest: "Brian Regan"
+      - guest: "Paul Kozlowski"
+
+  - title: "Miles Away"
+    link: "https://www.youtube.com/watch?v=y-UMXZVAfqE&t=0"
+    code: "S5E9"
+    date: "August 10, 1998"
+    rows:
+      - highlights:
+          - text: "Ben visits his cousin Sarah."
+      - guest: "Mitch Fatel"
+      - guest: "Patton Oswalt"
+
+  - title: "London Broil"
+    link: "https://www.youtube.com/watch?v=l6Ecw58qIck&t=0"
+    code: "S5E10"
+    date: "August 17, 1998"
+    rows:
+      - highlights:
+          - text: "Dr. Katz and Ben play games where they have to decipher clues."
+      - guest: "Kevin Kataoka"
+      - guest: "Brian Kiley"
+
+  - title: "Feng Shui"
+    link: "https://www.youtube.com/watch?v=pdWl1dMXDsg&t=0"
+    code: "S5E11"
+    date: "August 24, 1998"
+    rows:
+      - highlights:
+          - text: "Ben is interested in Feng Shui."
+      - guest: "Tom Kenny"
+      - guest: "Harry Shearer"
+
+  - title: "Alderman"
+    link: "https://www.youtube.com/watch?v=2MhBY2PFrlQ&t=0"
+    code: "S5E12"
+    date: "September 21, 1998"
+    rows:
+      - highlights:
+          - text: "Dr. Katz finds out the alderman he voted for is corrupt."
+      - guest: "Louis C.K."
+      - guest: "Sarah Silverman"
+
+  - title: "Paranoia"
+    link: "https://www.youtube.com/watch?v=KENUqv4I8W0&t=0"
+    code: "S5E13"
+    date: "September 28, 1998"
+    rows:
+      - highlights:
+          - text: "Dr. Katz and Ben think someone is trying to break into their apartment."
+      - guest: "Lew Schneider"
+      - guest: "David Cross"
+
+  - title: "Waltz"
+    link: "https://www.youtube.com/watch?v=FKHm0FHOsTU&t=0"
+    code: "S5E14"
+    date: "October 5, 1998"
+    rows:
+      - highlights:
+          - text: "Dr. Katz learns how to waltz."
+          - text: "First appearance of Todd the Video Store Clerk, played by Todd Barry."
+      - guest: "Ron Lynch"
+      - guest: "Susie Essman"
+
+  - title: "Anniversary"
+    link: "https://www.youtube.com/watch?v=_6_BxSBQPs4&t=0"
+    code: "S5E15"
+    date: "October 12, 1998"
+    rows:
+      - highlights:
+          - text: "Dr. Katz's anniversary approaches."
+      - guest: "Dom Irrera"
+      - guest: "Bonnie McFarlane"
+
+  - title: "Community Theater"
+    link: "https://www.youtube.com/watch?v=sggMsoHKaU4&t=0"
+    code: "S5E16"
+    date: "October 19, 1998"
+    rows:
+      - highlights:
+          - text: "Dr. Katz auditions for a play at the community theater."
+      - guest: "Tom Kenny"
+      - guest: "Ron Lynch"
+
+  - title: "Ping-Pong"
+    link: "https://www.youtube.com/watch?v=SXuMvtld1_A&t=0"
+    code: "S5E17"
+    date: "October 26, 1998"
+    rows:
+      - highlights:
+          - text: "Dr. Katz is challenged to a game of ping-pong by an old adversary."
+      - guest: "Kathy Griffin"
+      - guest: "Laura Kightlinger"
+
   - title: "Thanksgiving"
+    link: "https://www.youtube.com/watch?v=YkQ5Z-_Lmp4&t=0"
     code: "S5E18"
     date: "November 23, 1998"
     rows:
@@ -494,6 +684,7 @@ episodes:
       - guest: "Dom Irrera"
 
   - title: "Sissy Boy"
+    link: "https://www.youtube.com/watch?v=RL7D6OD_LUw&t=0"
     code: "S6E1"
     date: "June 15, 1999"
     rows:
@@ -503,6 +694,7 @@ episodes:
       - guest: "Jeff Goldblum"
 
   - title: "Pullman Square"
+    link: "https://www.youtube.com/watch?v=PCkVYw86Gzk&t=0"
     code: "S6E2"
     date: "June 22, 1999"
     rows:
@@ -511,7 +703,139 @@ episodes:
       - guest: "Ed Crasnick"
       - guest: "Teri Garr"
 
+  - title: "Wisdom Teeth"
+    link: "https://www.youtube.com/watch?v=MsomBMHpImE&t=0"
+    code: "S6E3"
+    date: "June 29, 1999"
+    rows:
+      - thumbnail: "s6e3_dentist.png"
+        highlights:
+          - text: "Ben gets his wisdom teeth removed."
+      - guest: "Paul F. Tompkins"
+      - guest: "Margaret Cho"
+
+  - title: "Past Lives"
+    link: "https://www.youtube.com/watch?v=_PatoSNpMdk&t=0"
+    code: "S6E4"
+    date: "July 6, 1999"
+    rows:
+      - highlights:
+          - text: "Dr. Katz and Ben believe they were famous people in previous lives."
+      - guest: "Dom Irrera"
+      - guest: "Mitch Hedberg"
+
+  - title: "Ben's Partay"
+    link: "https://www.youtube.com/watch?v=oHGGtr4_sSQ&t=0"
+    code: "S6E5"
+    date: "July 13, 1999"
+    rows:
+      - highlights:
+          - text: "Ben throws a party at the apartment."
+      - guest: "Al Lubel"
+      - guest: "Tom Hertz"
+
+  - title: "Walk for Hunger"
+    link: "https://www.youtube.com/watch?v=WArUgW2WfQ8&t=0"
+    code: "S6E6"
+    date: "July 20, 1999"
+    rows:
+      - highlights:
+          - text: "Laura asks Dr. Katz to sponsor her for a walk."
+      - guest: "Wanda Sykes"
+      - guest: "Jon Stewart"
+
+  - title: "Used Car"
+    link: "https://www.youtube.com/watch?v=-giw64WO0zc&t=0"
+    code: "S6E7"
+    date: "December 24, 1999"
+    rows:
+      - highlights:
+          - text: "Dr. Katz and Ben help Laura when she goes to buy a used car."
+      - guest: "Greg Behrendt"
+      - guest: "Ian Bagg"
+
+  - title: "Ball and Chain"
+    link: "https://www.youtube.com/watch?v=W3HREKO2wAo&t=0"
+    code: "S6E8"
+    date: "December 24, 1999"
+    rows:
+      - highlights:
+          - text: "Dr. Katz begins dating an author and Ben gets nervous about it."
+      - guest: "Carol Leifer"
+      - guest: "Kevin Meaney"
+
+  - title: "Snow Day"
+    link: "https://www.youtube.com/watch?v=EH7snNlbCmA&t=0"
+    code: "S6E9"
+    date: "December 24, 1999"
+    rows:
+      - highlights:
+          - text: "The city prepares for a blizzard."
+      - guest: "Merrill Markoe"
+      - guest: "Dana Gould"
+
+  - title: "Garden"
+    link: "https://www.youtube.com/watch?v=i5DKgugCI0Q&t=0"
+    code: "S6E10"
+    date: "December 24, 1999"
+    rows:
+      - highlights:
+          - text: "Dr. Katz is interested in gardening."
+      - guest: "Mitch Hedberg"
+      - guest: "Matt Siegel"
+
+  - title: "Big TV"
+    link: "https://www.youtube.com/watch?v=qdT3rxosXZo&t=0"
+    code: "S6E11"
+    date: "December 24, 1999"
+    rows:
+      - highlights:
+          - text: "Ben panics when the TV breaks and buys a big-screen TV without Dr. Katz's permission."
+      - guest: "Dom Irrera"
+      - guest: "Al Lubel"
+
+  - title: "Vow of Silence"
+    link: "https://www.youtube.com/watch?v=RPR3I-JrN9k&t=0"
+    code: "S6E12"
+    date: "December 24, 1999"
+    rows:
+      - highlights:
+          - text: "Dr. Katz makes a bet with Ben to see who can go longer without reading the newspaper (Katz) or talking (Ben)."
+      - guest: "Paul F. Tompkins"
+      - guest: "Sam Brown"
+
+  - title: "You're Belinda"
+    link: "https://www.youtube.com/watch?v=PgB75a6SZDc&t=0"
+    code: "S6E13"
+    date: "December 24, 1999"
+    rows:
+      - highlights:
+          - text: "Dr. Katz wants to attend a 'brief therapy' seminar in Yorba Linda, California."
+      - guest: "Wanda Sykes"
+      - guest: "Rich Gustus"
+
+  - title: "Radio Katz"
+    link: "https://www.youtube.com/watch?v=5uw2_ii7KDA&t=0"
+    code: "S6E14"
+    date: "December 24, 1999"
+    rows:
+      - highlights:
+          - text: "Dr. Katz is a guest host on a radio talk show."
+      - guest: "Dom Irrera"
+      - guest: "Julie Barr"
+
+  - title: "Expert Witness"
+    link: "https://www.youtube.com/watch?v=f3xS7L534Y4&t=0"
+    code: "S6E15"
+    date: "December 24, 1999"
+    rows:
+      - highlights:
+          - text: "Dr. Katz is asked to analyze a teenager and testify in court."
+      - guest: "Jake Johannsen"
+      - guest: "Bob Balaban"
+
   - title: "Bakery Ben"
+    link: "https://www.youtube.com/watch?v=tQUOTRpJHE8&t=0"
     code: "S6E16"
     date: "February 13, 2002"
     rows:
@@ -521,6 +845,7 @@ episodes:
       - guest: "Dave Attell"
 
   - title: "Uncle Nothing"
+    link: "https://www.youtube.com/watch?v=4G3tTnT0qdo&t=0"
     code: "S6E17"
     date: "February 13, 2002"
     rows:
@@ -530,6 +855,7 @@ episodes:
       - guest: "Kevin Brennan"
 
   - title: "Lerapy"
+    link: "https://www.youtube.com/watch?v=x-JSllAVKbM&t=0"
     code: "S6E18"
     date: "February 13, 2002"
     rows:
