@@ -113,8 +113,11 @@ episodes:
     rows:
       - highlights:
           - text: "Ben searches for an apartment."
+        thumbnail: "s2e2_leese.png"
       - guest: "Barry Sobel"
+        thumbnail: "s2e2_barry_sobel.png"
       - guest: "Rita Rudner"
+        thumbnail: "s2e2_rita_rudner.png"
 
   - title: "Glasses"
     link: "https://www.youtube.com/watch?v=Pws9N_-kuE4&t=0"
