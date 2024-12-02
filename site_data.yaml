@@ -126,8 +126,11 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz buys a pair of glasses."
+        thumbnail: "s2e3_glasses.png"
       - guest: "Dom Irrera"
+        thumbnail: "s2e3_dom_irrera.png"
       - guest: "Emo Philips"
+        thumbnail: "s2e3_emo_philips.png"
 
   - title: "Office Management"
     link: "https://www.youtube.com/watch?v=YCDEftP9bIs&t=0"
@@ -136,8 +139,11 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz wonders why Laura is calling out from work and thinks she needs a morale boost."
+        thumbnail: "s2e4_laura.png"
       - guest: "Ray Romano"
+        thumbnail: "s2e4_ray_romano.png"
       - guest: "Carol Leifer"
+        thumbnail: "s2e4_carol_leifer.png"
 
   - title: "Bees and SIDS"
     link: "https://www.youtube.com/watch?v=kuS8T9EFTJc&t=0"
@@ -147,8 +153,14 @@ episodes:
       - highlights:
           - text: "Dr. Katz is afraid of a bee in the office."
           - text: "Ben reads his dad's medical books and convinces himself he is ill."
+        thumbnail: "s2e5_bee.png"
       - guest: "Dom Irrera"
+        thumbnail: "s2e5_dom_irrera.png"
+        highlights:
+          - text: "Dr. Katz listens to a heartfelt answering machine message from Dom."
+            link: "https://youtu.be/kuS8T9EFTJc?t=989"
       - guest: "Louis C.K."
+        thumbnail: "s2e5_louis_c_k.png"
 
   - title: "Drinky the Drunk Guy"
     link: "https://www.youtube.com/watch?v=E3VnPGgwZFk&t=0"
@@ -157,8 +169,11 @@ episodes:
     rows:
       - highlights:
           - text: "Ben thinks his dad has a drinking problem."
+        thumbnail: "s2e6_katz_drinking.png"
       - guest: "Ray Romano"
+        thumbnail: "s2e6_ray_romano.png"
       - guest: "Janeane Garofalo"
+        thumbnail: "s2e6_janeane_garofalo.png"
 
   - title: "Sticky Notes"
     link: "https://www.youtube.com/watch?v=ncDA1q6x778&t=0"
@@ -167,8 +182,11 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz thinks Laura is stealing sticky notes."
+        thumbnail: "s2e7_sticky_notes.png"
       - guest: "Garry Shandling"
+        thumbnail: "s2e7_garry_shandling.png"
       - guest: "Judy Tenuta"
+        thumbnail: "s2e7_judy_tenuta.png"
 
   - title: "It Takes Some Getting Used To"
     link: "https://www.youtube.com/watch?v=1dqezQ0i5ok&t=0"
@@ -177,8 +195,14 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz sees a new woman and Ben is uncomfortable with it."
-      - guest: "Bill Braudis"
+        thumbnail: "s2e8_bathrobe.png"
       - guest: "Lew Schneider"
+        thumbnail: "s2e8_lew_schneider.png"
+        highlights:
+          - text: "Lew says babies get very hungry."
+            link: "https://youtu.be/1dqezQ0i5ok?t=282"
+      - guest: "Bill Braudis"
+        thumbnail: "s2e8_bill_braudis.png"
 
   - title: "The Particle Board"
     link: "https://www.youtube.com/watch?v=rQYaqw3o3WA&t=0"
@@ -187,8 +211,11 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz and Ben build a shelf for the apartment."
+        thumbnail: "s2e9_ben_hardware.png"
       - guest: "Eddie Brill"
+        thumbnail: "s2e9_eddie_brill.png"
       - guest: "Marc Maron"
+        thumbnail: "s2e9_marc_maron.png"
 
   - title: "A Journey for the Betterment of People"
     link: "https://www.youtube.com/watch?v=GlXpJ2SF5hc&t=0"
