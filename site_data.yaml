@@ -1,0 +1,539 @@
+episodes:
+  - title: "Pot-Bellied Pigs"
+    link: "https://www.youtube.com/watch?v=CWaNSfkWb6s"
+    code: "S1E1"
+    date: "May 28, 1995"
+    rows:
+      - thumbnail: "s1e1i1.png"
+        highlights:
+          - text: "Ben attempts a pot-belly pig breeding scheme."
+          - text: "Dr. Katz receives financial advice from Stanley."
+      - guest: "Bill Braudis"
+        thumbnail: "s1e1i2.png"
+        highlights:
+          - link: "https://youtu.be/CWaNSfkWb6s?t=247"
+            text: "Bill's feet aren't finished."
+          - link: "https://youtu.be/CWaNSfkWb6s?t=485"
+            text: "He likes going to the dentist."
+      - guest: "Dom Irrera"
+        thumbnail: "s1e1i3.png"
+        highlights:
+          - link: "https://youtu.be/CWaNSfkWb6s?t=702"
+            text: "Dom worries about hair loss and toupees."
+
+  - title: "Pretzelkins"
+    code: "S1E2"
+    date: "June 4, 1995"
+    rows:
+      - thumbnail: "s1e2i1.png"
+        highlights:
+          - text: "Dr. Katz asks Ben to take his grandfather to the urologist."
+          - text: "Dr. Katz deals with his own depressed feelings."
+      - guest: "Ray Romano"
+        thumbnail: "s1e2i2.png"
+      - guest: "Wendy Liebman"
+        thumbnail: "s1e2i3.png"
+
+  - title: "Bully"
+    code: "S1E3"
+    date: "June 11, 1995"
+    rows:
+      - highlights:
+          - text: "Ben deals with his childhood stuffed bull being thrown out."
+          - text: "Dr. Katz attempts to perform at an open-mic night."
+        thumbnail: "s1e3_bully.png"
+      - guest: "Ray Romano"
+        thumbnail: "s1e3_ray_romano.png"
+      - guest: "Joy Behar"
+        thumbnail: "s1e3_joy_behar.png"
+
+  - title: "Cholesterol"
+    code: "S1E4"
+    date: "June 18, 1995"
+    rows:
+      - highlights:
+          - text: "Dr. Katz starts to train with Julie the bartender."
+        thumbnail: "s1e4_worried.png"
+      - guest: "Dave Attell"
+        thumbnail: "s1e4_dave_attell.png"
+      - guest: "Laura Kightlinger"
+        thumbnail: "s1e4_laura_kightlinger.png"
+
+  - title: "Everybody's Got a Tushy"
+    code: "S1E5"
+    date: "June 25, 1995"
+    rows:
+      - highlights:
+          - text: "Dr. Katz is worried about Ben's lack of social life."
+        thumbnail: "s1e5_ben_cookie_dough.png"
+      - guest: "Ray Romano"
+        thumbnail: "s1e5_ray_romano.png"
+      - guest: "Larry Miller"
+        thumbnail: "s1e5_larry_miller.png"
+
+  - title: "Family Car"
+    code: "S1E6"
+    date: "July 2, 1995"
+    rows:
+      - highlights:
+          - text: "Ben borrows the family car."
+        thumbnail: "s1e6_ben_car.png"
+      - guest: "Anthony Clark"
+        thumbnail: "s1e6_anthony_clark.png"
+      - guest: "Andy Kindler"
+        thumbnail: "s1e6_andy_kindler.png"
+
+  - title: "Bystander Ben"
+    code: "S2E1"
+    date: "October 15, 1995"
+    rows:
+      - highlights:
+          - text: "Ben witnesses a crime and appears in the newspaper."
+        thumbnail: "s2e1_ben_paper.png"
+      - guest: "Kevin Meaney"
+        thumbnail: "s2e1_kevin_meaney.png"
+      - guest: "Steven Wright"
+        thumbnail: "s2e1_steven_wright.png"
+
+  - title: "Real Estate"
+    code: "S2E2"
+    date: "October 29, 1995"
+    rows:
+      - highlights:
+          - text: "Ben searches for an apartment."
+      - guest: "Barry Sobel"
+      - guest: "Rita Rudner"
+
+  - title: "Glasses"
+    code: "S2E3"
+    date: "November 12, 1995"
+    rows:
+      - highlights:
+          - text: "Dr. Katz buys a pair of glasses."
+      - guest: "Dom Irrera"
+      - guest: "Emo Philips"
+
+  - title: "Office Management"
+    code: "S2E4"
+    date: "December 17, 1995"
+    rows:
+      - highlights:
+          - text: "Dr. Katz wonders why Laura is calling out from work and thinks she needs a morale boost."
+      - guest: "Ray Romano"
+      - guest: "Carol Leifer"
+
+  - title: "Bees and SIDS"
+    code: "S2E5"
+    date: "January 14, 1996"
+    rows:
+      - highlights:
+          - text: "Dr. Katz is afraid of a bee in the office."
+          - text: "Ben reads his dad's medical books and convinces himself he is ill."
+      - guest: "Dom Irrera"
+      - guest: "Louis C.K."
+
+  - title: "Drinky the Drunk Guy"
+    code: "S2E6"
+    date: "January 21, 1996"
+    rows:
+      - highlights:
+          - text: "Ben thinks his dad has a drinking problem."
+      - guest: "Ray Romano"
+      - guest: "Janeane Garofalo"
+
+  - title: "Sticky Notes"
+    code: "S2E7"
+    date: "April 7, 1996"
+    rows:
+      - highlights:
+          - text: "Dr. Katz thinks Laura is stealing sticky notes."
+      - guest: "Garry Shandling"
+      - guest: "Judy Tenuta"
+
+  - title: "It Takes Some Getting Used To"
+    code: "S2E8"
+    date: "April 14, 1996"
+    rows:
+      - highlights:
+          - text: "Dr. Katz sees a new woman and Ben is uncomfortable with it."
+      - guest: "Bill Braudis"
+      - guest: "Lew Schneider"
+
+  - title: "The Particle Board"
+    code: "S2E9"
+    date: "April 21, 1996"
+    rows:
+      - highlights:
+          - text: "Dr. Katz and Ben build a shelf for the apartment."
+      - guest: "Eddie Brill"
+      - guest: "Marc Maron"
+
+  - title: "A Journey for the Betterment of People"
+    code: "S2E10"
+    date: "April 28, 1996"
+    rows:
+      - highlights:
+          - text: "Ben meets a prostitute."
+      - guest: "Sandra Bernhard"
+      - guest: "Todd Barry"
+
+  - title: "Theory of Intelligence"
+    code: "S2E11"
+    date: "May 5, 1996"
+    rows:
+      - highlights:
+          - text: "Dr. Katz gives an adult education lecture."
+      - guest: "Joy Behar"
+      - guest: "Brian Kiley"
+
+  - title: "Henna"
+    code: "S2E12"
+    date: "May 12, 1996"
+    rows:
+      - highlights:
+          - text: "Dr. Katz and Ben use a hair product called 'Ultra Henna Bouquet', which turns their hair bright orange-red."
+      - guest: "Kevin Meaney"
+      - guest: "Fred Stoller"
+
+  - title: "ESP"
+    code: "S2E13"
+    date: "May 26, 1996"
+    rows:
+      - highlights:
+          - text: "Ben is convinced he has ESP."
+      - guest: "Ray Romano"
+      - guest: "Tom Agna"
+
+  - title: "Monte Carlo"
+    code: "S3E1"
+    date: "October 6, 1996"
+    rows:
+      - highlights:
+          - text: "Ben starts a celebrity limousine service and runs it from his dad's office."
+      - guest: "Richard Jeni"
+      - guest: "Winona Ryder"
+
+  - title: "Blind Date"
+    code: "S3E2"
+    date: "October 13, 1996"
+    rows:
+      - highlights:
+          - text: "Julie sets Dr. Katz up on a blind date."
+      - guest: "Jeffrey Ross"
+      - guest: "Cathy Ladman"
+
+  - title: "Fructose"
+    code: "S3E3"
+    date: "October 20, 1996"
+    rows:
+      - highlights:
+          - text: "Dr. Katz brings a bowl of fruit to the office."
+          - text: "Ben tries to find a new hobby."
+      - guest: "Marc Maron"
+      - guest: "Emo Philips"
+      - guest: "Bob Odenkirk"
+
+  - title: "Earring"
+    code: "S3E4"
+    date: "October 27, 1996"
+    rows:
+      - highlights:
+          - text: "Ben wants to change his image and thinks about getting an earring."
+      - guest: "Jack Gallagher"
+      - guest: "Kevin Nealon"
+
+  - title: "Koppleman and Katz"
+    code: "S3E5"
+    date: "November 3, 1996"
+    rows:
+      - highlights:
+          - text: "Ben discovers that his dad was a hippie and had an old flame named Sharon Koppleman."
+      - guest: "Kathy Griffin"
+      - guest: "David Feldman"
+      - guest: "Jeff Stilson"
+
+  - title: "Guess Who"
+    code: "S3E6"
+    date: "January 5, 1997"
+    rows:
+      - highlights:
+          - text: "Dr. Katz gets an urge to play the 'Guess Who?' board game with Ben."
+      - guest: "Jon Stewart"
+      - guest: "Ritch Shydner"
+
+  - title: "Day Planner"
+    code: "S3E7"
+    date: "January 12, 1997"
+    rows:
+      - highlights:
+          - text: "Dr. Katz loses his day planner and asks Ben to help him find it."
+      - guest: "Rodney Dangerfield"
+      - guest: "Fred Stoller"
+      - guest: "Jake Johannsen"
+
+  - title: "Studio Guy"
+    code: "S3E8"
+    date: "January 19, 1997"
+    rows:
+      - highlights:
+          - text: "Dr. Katz wants to record a song that has been stuck in his head."
+      - guest: "Joan Rivers"
+      - guest: "Bobcat Goldthwait"
+      - guest: "Fred Stoller"
+
+  - title: "Mourning Person"
+    code: "S3E9"
+    date: "January 26, 1997"
+    rows:
+      - highlights:
+          - text: "Dr. Katz has to give a eulogy at his aunt's funeral."
+      - guest: "Andy Kindler"
+      - guest: "Margaret Smith"
+
+  - title: "L'il Helper"
+    code: "S3E10"
+    date: "February 2, 1997"
+    rows:
+      - highlights:
+          - text: "Dr. Katz throws out his back and asks Ben to help him."
+      - guest: "Ken Rogerson"
+      - guest: "David Juskow"
+      - guest: "Lizz Winstead"
+
+  - title: "Big Fat Slug"
+    code: "S3E11"
+    date: "February 9, 1997"
+    rows:
+      - highlights:
+          - text: "Dr. Katz wants Ben to cut down on his TV time."
+      - guest: "Caroline Rhea"
+      - guest: "David Cross"
+
+  - title: "New Phone System"
+    code: "S3E12"
+    date: "March 2, 1997"
+    rows:
+      - highlights:
+          - text: "Dr. Katz installs a new phone system in the office."
+      - guest: "David Mamet"
+      - guest: "Andy Kindler"
+
+  - title: "Reunion"
+    code: "S3E13"
+    date: "March 9, 1997"
+    rows:
+      - highlights:
+          - text: "Ben is invited to his high school reunion."
+      - guest: "Dom Irrera"
+      - guest: "Lisa Kudrow"
+
+  - title: "Ben Treats"
+    code: "S4E1"
+    date: "May 9, 1997"
+    rows:
+      - highlights:
+          - text: "Ben wins $500 on a scratch-off lottery ticket and treats Dr. Katz and Laura to dinner."
+      - guest: "Julia Louis-Dreyfus"
+      - guest: "Jim Gaffigan"
+
+  - title: "Memoirs"
+    code: "S4E2"
+    date: "June 22, 1997"
+    rows:
+      - highlights:
+          - text: "Ben wants to be an author and begins to write his memoirs."
+      - guest: "Louis C.K."
+      - guest: "Ron Lynch"
+      - guest: "Fred Stoller"
+
+  - title: "Electric Bike"
+    code: "S4E3"
+    date: "June 29, 1997"
+    rows:
+      - highlights:
+          - text: "Dr. Katz orders an electric bike."
+      - guest: "Ray Romano"
+      - guest: "Dave Chappelle"
+
+  - title: "Broadcaster Ben"
+    code: "S4E4"
+    date: "July 6, 1997"
+    rows:
+      - highlights:
+          - text: "Ben auditions to become a broadcaster."
+      - guest: "Bill Braudis"
+      - guest: "Dom Irrera"
+
+  - title: "Trash Day"
+    code: "S4E5"
+    date: "July 13, 1997"
+    rows:
+      - highlights:
+          - text: "Dr. Katz takes a chair that was being thrown out."
+      - guest: "Dave Attell"
+      - guest: "Fred Stoller"
+      - guest: "Lew Schneider"
+
+  - title: "Sharon Meyers"
+    code: "S4E6"
+    date: "July 27, 1997"
+    rows:
+      - highlights:
+          - text: "Dr. Katz meets with a former patient and love interest, Sharon Meyers."
+      - guest: "Al Franken"
+      - guest: "Bobby Slayton"
+      - guest: "Todd Barry"
+
+  - title: "Mask"
+    code: "S4E7"
+    date: "August 3, 1997"
+    rows:
+      - highlights:
+          - text: "Dr. Katz takes a class to learn about making masks."
+      - guest: "Steven Wright"
+      - guest: "Mark Schiff"
+
+  - title: "Closets"
+    code: "S4E8"
+    date: "August 10, 1997"
+    rows:
+      - highlights:
+          - text: "Dr. Katz asks Ben to help him reorganize his bedroom closet."
+      - guest: "Elayne Boosler"
+      - guest: "Michael Rowe"
+
+  - title: "Wild Weekend"
+    code: "S4E9"
+    date: "August 17, 1997"
+    rows:
+      - highlights:
+          - text: "Ben wants to go camping and hiking."
+      - guest: "Don Gavin"
+      - guest: "Robert Schimmel"
+
+  - title: "Chopper"
+    code: "S4E10"
+    date: "August 24, 1997"
+    rows:
+      - highlights:
+          - text: "Ben is a runner-up in a contest to ride in a traffic helicopter."
+      - guest: "Dom Irrera"
+      - guest: "Conan O'Brien"
+
+  - title: "Alibi"
+    code: "S4E11"
+    date: "August 31, 1997"
+    rows:
+      - highlights:
+          - text: "Ben thinks Dr. Katz is the suspect when a bald man in his late 40s damages a mailbox."
+      - guest: "Jeff Garlin"
+      - guest: "Tony V."
+
+  - title: "Ben-Centennial"
+    code: "S4E12"
+    date: "September 7, 1997"
+    rows:
+      - highlights:
+          - text: "Ben turns 25. Laura rescues a bird."
+      - guest: "Sam Brown"
+      - guest: "The Smothers Brothers"
+
+  - title: "Undercover"
+    code: "S4E13"
+    date: "September 14, 1997"
+    rows:
+      - highlights:
+          - text: "Ben tries to figure out why Laura is calling out from work."
+      - guest: "Mark Pitta"
+      - guest: "Richard Lewis"
+      - guest: "Ron Lynch"
+
+  - title: "Old Man"
+    code: "S5E1"
+    date: "June 15, 1998"
+    rows:
+      - highlights:
+          - text: "Ben thinks it is time for Dr. Katz to retire."
+      - guest: "Robert Klein"
+      - guest: "Gilbert Gottfried"
+      - guest: "Jim Gaffigan"
+
+  - title: "Fanny Pack"
+    code: "S5E2"
+    date: "June 22, 1998"
+    rows:
+      - highlights:
+          - text: "Dr. Katz begins wearing a fanny pack."
+      - guest: "Denis Leary"
+      - guest: "James Leemer"
+
+  - title: "Metaphors"
+    code: "S5E3"
+    date: "June 29, 1998"
+    rows:
+      - highlights:
+          - text: "Dr. Katz and Ben start drinking more coffee than usual."
+      - guest: "Brian Regan"
+      - guest: "David Duchovny"
+
+  - title: "Movies"
+    code: "S5E4"
+    date: "July 6, 1998"
+    rows:
+      - highlights:
+          - text: "Dr. Katz and Ben are addicted to movies."
+      - guest: "Sam Brown"
+      - guest: "Patton Oswalt"
+
+  - title: "Thanksgiving"
+    code: "S5E18"
+    date: "November 23, 1998"
+    rows:
+      - highlights:
+          - text: "Dr. Katz's ex-wife Roz visits for Thanksgiving dinner."
+      - guest: "Dom Irrera"
+
+  - title: "Sissy Boy"
+    code: "S6E1"
+    date: "June 15, 1999"
+    rows:
+      - highlights:
+          - text: "Ben is called a sissy by a former bully."
+      - guest: "Ted Alexandro"
+      - guest: "Jeff Goldblum"
+
+  - title: "Pullman Square"
+    code: "S6E2"
+    date: "June 22, 1999"
+    rows:
+      - highlights:
+          - text: "Ben stages a protest to save Pullman Square."
+      - guest: "Ed Crasnick"
+      - guest: "Teri Garr"
+
+  - title: "Bakery Ben"
+    code: "S6E16"
+    date: "February 13, 2002"
+    rows:
+      - highlights:
+          - text: "Ben becomes an assistant at a local bakery."
+      - guest: "Catherine O'Hara"
+      - guest: "Dave Attell"
+
+  - title: "Uncle Nothing"
+    code: "S6E17"
+    date: "February 13, 2002"
+    rows:
+      - highlights:
+          - text: "Laura gets engaged to a musician. Ben visits Dr. Katz's bar and meets Julie."
+      - guest: "Louis C.K."
+      - guest: "Kevin Brennan"
+
+  - title: "Lerapy"
+    code: "S6E18"
+    date: "February 13, 2002"
+    rows:
+      - highlights:
+          - text: "Dr. Katz tells Conan O'Brien a joke that Conan uses on his talk show without credit."
+      - guest: "Whoopi Goldberg"
+      - guest: "Conan O'Brien"
