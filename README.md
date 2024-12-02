@@ -8,10 +8,10 @@ site_data.yaml, and the html template is in site.template.html.
 
 To build:
 
-  go run generate_site.go
+    go run generate_site.go
 
 To build and immediately view:
 
-  go run generate_site.go && google-chrome index.html
+    go run generate_site.go && google-chrome index.html
 
 Last tested with go1.23.3 linux/amd64
