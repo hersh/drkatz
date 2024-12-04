@@ -425,9 +425,16 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz throws out his back and asks Ben to help him."
+        thumbnail: "s3e10_ben_carries_drkatz.png"
       - guest: "Ken Rogerson"
-      - guest: "David Juskow"
+        thumbnail: "s3e10_ken_rogerson.png"
+        highlights:
+          - text: "Ken shot his own turkey last thanksgiving."
+            link: "https://youtu.be/gYKR5_FguvQ?t=444"
       - guest: "Lizz Winstead"
+        thumbnail: "s3e10_lizz_winstead.png"
+      - guest: "David Juskow"
+        thumbnail: "s3e10_david_juskow.png"
 
   - title: "Big Fat Slug"
     link: "https://www.youtube.com/watch?v=zqXGJ9KMC3Y&t=0"
@@ -436,8 +443,11 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz wants Ben to cut down on his TV time."
+        thumbnail: "s3e11_tv.png"
       - guest: "Caroline Rhea"
+        thumbnail: "s3e11_caroline_rhea.png"
       - guest: "David Cross"
+        thumbnail: "s3e11_david_cross.png"
 
   - title: "New Phone System"
     link: "https://www.youtube.com/watch?v=9IGM6j1wdYE&t=0"
@@ -446,8 +456,11 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz installs a new phone system in the office."
-      - guest: "David Mamet"
+        thumbnail: "s3e12_ben_calls_laura_at_home.png"
       - guest: "Andy Kindler"
+        thumbnail: "s3e12_andy_kindler.png"
+      - guest: "David Mamet"
+        thumbnail: "s3e12_david_mamet.png"
 
   - title: "Reunion"
     link: "https://www.youtube.com/watch?v=bLROwHMtI9o&t=0"
@@ -456,8 +469,11 @@ episodes:
     rows:
       - highlights:
           - text: "Ben is invited to his high school reunion."
+        thumbnail: "s3e13_ben.png"
       - guest: "Dom Irrera"
+        thumbnail: "s3e13_dom_irrera.png"
       - guest: "Lisa Kudrow"
+        thumbnail: "s3e13_lisa_kudrow.png"
 
   - title: "Ben Treats"
     link: "https://www.youtube.com/watch?v=m3mSAFeUrQ4&t=0"
@@ -466,8 +482,11 @@ episodes:
     rows:
       - highlights:
           - text: "Ben wins $500 on a scratch-off lottery ticket and treats Dr. Katz and Laura to dinner."
-      - guest: "Julia Louis-Dreyfus"
+        thumbnail: "s4e1_fancy_restaurant.png"
       - guest: "Jim Gaffigan"
+        thumbnail: "s4e1_jim_gaffigan.png"
+      - guest: "Julia Louis-Dreyfus"
+        thumbnail: "s4e1_julia_louis_dreyfus.png"
 
   - title: "Memoirs"
     link: "https://www.youtube.com/watch?v=J5O7VUEiGlM&t=0"
