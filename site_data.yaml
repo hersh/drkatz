@@ -224,8 +224,11 @@ episodes:
     rows:
       - highlights:
           - text: "Ben meets a prostitute."
+        thumbnail: "s2e10_ben_prostitute.png"
       - guest: "Sandra Bernhard"
+        thumbnail: "s2e10_sandra_bernhard.png"
       - guest: "Todd Barry"
+        thumbnail: "s2e10_todd_barry.png"
 
   - title: "Theory of Intelligence"
     link: "https://www.youtube.com/watch?v=qd93vhN_94w&t=0"
@@ -234,8 +237,11 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz gives an adult education lecture."
+        thumbnail: "s2e11_katz_lecture.png"
       - guest: "Joy Behar"
+        thumbnail: "s2e11_joy_behar.png"
       - guest: "Brian Kiley"
+        thumbnail: "s2e11_brian_kiley.png"
 
   - title: "Henna"
     link: "https://www.youtube.com/watch?v=3tEv90CA_gs&t=0"
@@ -244,8 +250,11 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz and Ben use a hair product called 'Ultra Henna Bouquet', which turns their hair bright orange-red."
+        thumbnail: "s2e12_ben_henna.png"
       - guest: "Kevin Meaney"
+        thumbnail: "s2e12_kevin_meaney.png"
       - guest: "Fred Stoller"
+        thumbnail: "s2e12_fred_stoller.png"
 
   - title: "ESP"
     link: "https://www.youtube.com/watch?v=KqXwwIkidPw&t=0"
@@ -254,8 +263,11 @@ episodes:
     rows:
       - highlights:
           - text: "Ben is convinced he has ESP."
+        thumbnail: "s2e13_katz_pig.png"
       - guest: "Ray Romano"
+        thumbnail: "s2e13_ray_romano.png"
       - guest: "Tom Agna"
+        thumbnail: "s2e13_tom_agna.png"
 
   - title: "Monte Carlo"
     link: "https://www.youtube.com/watch?v=3UFe51o5azc&t=0"
@@ -266,8 +278,11 @@ episodes:
           - text: "Ben starts a celebrity limousine service and runs it from his dad's office."
           - text: "There is confusion about Monte Carlo."
             link: "https://youtu.be/3UFe51o5azc?t=115"
+        thumbnail: "s3e1_monte_carlo.png"
       - guest: "Richard Jeni"
+        thumbnail: "s3e1_richard_jeni.png"
       - guest: "Winona Ryder"
+        thumbnail: "s3e1_winona_ryder.png"
 
   - title: "Blind Date"
     link: "https://www.youtube.com/watch?v=JkhkRkSO6WI&t=0"
@@ -276,8 +291,17 @@ episodes:
     rows:
       - highlights:
           - text: "Julie sets Dr. Katz up on a blind date."
+            link: "https://youtu.be/JkhkRkSO6WI?t=261"
+        thumbnail: "s3e2_julie.png"
       - guest: "Jeffrey Ross"
+        thumbnail: "s3e2_jeffrey_ross.png"
+        highlights:
+          - text: "Jeffrey describes a blind date."
+            link: "https://youtu.be/JkhkRkSO6WI?t=217"
+          - text: "Whoopah!"
+            link: "https://youtu.be/JkhkRkSO6WI?t=252"
       - guest: "Cathy Ladman"
+        thumbnail: "s3e2_cathy_ladman.png"
 
   - title: "Fructose"
     link: "https://www.youtube.com/watch?v=JSCkcKPDma8&t=0"
@@ -287,9 +311,16 @@ episodes:
       - highlights:
           - text: "Dr. Katz brings a bowl of fruit to the office."
           - text: "Ben tries to find a new hobby."
-      - guest: "Marc Maron"
-      - guest: "Emo Philips"
+        thumbnail: "s3e3_fruit.png"
       - guest: "Bob Odenkirk"
+        thumbnail: "s3e3_bob_odenkirk.png"
+      - guest: "Emo Philips"
+        thumbnail: "s3e3_emo_philips.png"
+      - guest: "Marc Maron"
+        thumbnail: "s3e3_marc_maron.png"
+        highlights:
+          - text: "Marc joins a gym."
+            link: "https://youtu.be/JSCkcKPDma8?t=736"
 
   - title: "Earring"
     link: "https://www.youtube.com/watch?v=Y8vomt5oHmo&t=0"
@@ -298,8 +329,20 @@ episodes:
     rows:
       - highlights:
           - text: "Ben wants to change his image and thinks about getting an earring."
+        thumbnail: "s3e4_ben_earring.png"
       - guest: "Jack Gallagher"
+        thumbnail: "s3e4_jack_gallagher.png"
+        highlights:
+          - text: "Jack does not want to be number one."
+            link: "https://youtu.be/Y8vomt5oHmo?t=285"
+          - text: "Jack's wife has a baby."
+            link: "https://youtu.be/Y8vomt5oHmo?t=387"
+          - text: "Jack is getting older"
+            link: "https://youtu.be/Y8vomt5oHmo?t=1005"
+          - text: "and sometimes hears stuff snapping in his neck."
+            link: "https://youtu.be/Y8vomt5oHmo?t=1039"
       - guest: "Kevin Nealon"
+        thumbnail: "s3e4_kevin_nealon.png"
 
   - title: "Koppleman and Katz"
     link: "https://www.youtube.com/watch?v=YUVqMFVeQVg&t=0"
@@ -308,9 +351,16 @@ episodes:
     rows:
       - highlights:
           - text: "Ben discovers that his dad was a hippie and had an old flame named Sharon Koppleman."
-      - guest: "Kathy Griffin"
+        thumbnail: "s3e5_koppleman_and_katz.png"
       - guest: "David Feldman"
+        thumbnail: "s3e5_david_feldman.png"
+      - guest: "Kathy Griffin"
+        thumbnail: "s3e5_kathy_griffin.png"
+        highlights:
+          - text: "Kathy considers joining a biker gang."
+            link: "https://youtu.be/YUVqMFVeQVg?t=546"
       - guest: "Jeff Stilson"
+        thumbnail: "s3e5_jeff_stilson.png"
 
   - title: "Guess Who"
     link: "https://www.youtube.com/watch?v=j0Vf4pKAioE&t=0"
