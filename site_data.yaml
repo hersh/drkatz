@@ -369,8 +369,11 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz gets an urge to play the 'Guess Who?' board game with Ben."
+        thumbnail: "s3e6_guess_who.png"
       - guest: "Jon Stewart"
+        thumbnail: "s3e6_jon_stewart.png"
       - guest: "Ritch Shydner"
+        thumbnail: "s3e6_ritch_shydner.png"
 
   - title: "Day Planner"
     link: "https://www.youtube.com/watch?v=8PMESZh6nzk&t=0"
@@ -379,9 +382,13 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz loses his day planner and asks Ben to help him find it."
+        thumbnail: "s3e7_day_planner.png"
       - guest: "Rodney Dangerfield"
+        thumbnail: "s3e7_rodney_dangerfield.png"
       - guest: "Fred Stoller"
+        thumbnail: "s3e7_fred_stoller.png"
       - guest: "Jake Johannsen"
+        thumbnail: "s3e7_jake_johannsen.png"
 
   - title: "Studio Guy"
     link: "https://www.youtube.com/watch?v=v59eTEXd78c&t=0"
@@ -390,9 +397,13 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz wants to record a song that has been stuck in his head."
-      - guest: "Joan Rivers"
+        thumbnail: "s3e9_studio_ben.png"
       - guest: "Bobcat Goldthwait"
+        thumbnail: "s3e9_bobcat_goldthwait.png"
       - guest: "Fred Stoller"
+        thumbnail: "s3e9_fred_stoller.png"
+      - guest: "Joan Rivers"
+        thumbnail: "s3e9_joan_rivers.png"
 
   - title: "Mourning Person"
     link: "https://www.youtube.com/watch?v=CtqIx-t6yOk&t=0"
@@ -401,8 +412,11 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz has to give a eulogy at his aunt's funeral."
+        thumbnail: "s3e8_mourning_katz.png"
       - guest: "Andy Kindler"
+        thumbnail: "s3e8_andy_kindler.png"
       - guest: "Margaret Smith"
+        thumbnail: "s3e8_margaret_smith.png"
 
   - title: "L'il Helper"
     link: "https://www.youtube.com/watch?v=gYKR5_FguvQ&t=0"
