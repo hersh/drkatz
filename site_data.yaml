@@ -495,9 +495,13 @@ episodes:
     rows:
       - highlights:
           - text: "Ben wants to be an author and begins to write his memoirs."
+        thumbnail: "s4e2_ben_writing.png"
       - guest: "Louis C.K."
-      - guest: "Ron Lynch"
+        thumbnail: "s4e2_louis_c_k.png"
       - guest: "Fred Stoller"
+        thumbnail: "s4e2_fred_stoller.png"
+      - guest: "Ron Lynch"
+        thumbnail: "s4e2_ron_lynch.png"
 
   - title: "Electric Bike"
     link: "https://www.youtube.com/watch?v=bfYdLlBJ2VQ&t=0"
@@ -506,8 +510,22 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz orders an electric bike."
+        thumbnail: "s4e3_bike.png"
       - guest: "Ray Romano"
+        thumbnail: "s4e3_ray_romano.png"
+        highlights:
+          - text: "Ray needs more orange juice at restaurants."
+            link: "https://youtu.be/bfYdLlBJ2VQ?t=809"
       - guest: "Dave Chappelle"
+        thumbnail: "s4e3_dave_chappelle.png"
+        highlights:
+          - text: "Dave discusses superheroes:"
+          - text: "The Hulk,"
+            link: "https://youtu.be/bfYdLlBJ2VQ?t=365"
+          - text: "Wonder Woman,"
+            link: "https://youtu.be/bfYdLlBJ2VQ?t=445"
+          - text: "and Aquaman"
+            link: "https://youtu.be/bfYdLlBJ2VQ?t=475"
 
   - title: "Broadcaster Ben"
     link: "https://www.youtube.com/watch?v=ZmmQIYlM1qs&t=0"
@@ -516,8 +534,11 @@ episodes:
     rows:
       - highlights:
           - text: "Ben auditions to become a broadcaster."
-      - guest: "Bill Braudis"
+        thumbnail: "s4e4_ben.png"
       - guest: "Dom Irrera"
+        thumbnail: "s4e4_dom_irrera.png"
+      - guest: "Bill Braudis"
+        thumbnail: "s4e4_bill_braudis.png"
 
   - title: "Trash Day"
     link: "https://www.youtube.com/watch?v=SMmiPbh830Y&t=0"
@@ -526,9 +547,13 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz takes a chair that was being thrown out."
+        thumbnail: "s4e5_katz_chair.png"
       - guest: "Dave Attell"
+        thumbnail: "s4e5_dave_attell.png"
       - guest: "Fred Stoller"
+        thumbnail: "s4e5_fred_stoller.png"
       - guest: "Lew Schneider"
+        thumbnail: "s4e5_lew_schneider.png"
 
   - title: "Sharon Meyers"
     link: "https://www.youtube.com/watch?v=-WD0_CWJu_U&t=0"
