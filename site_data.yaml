@@ -622,8 +622,11 @@ episodes:
     rows:
       - highlights:
           - text: "Ben is a runner-up in a contest to ride in a traffic helicopter."
+        thumbnail: "s4e10_laura_ben_roof.png"
       - guest: "Dom Irrera"
+        thumbnail: "s4e10_dom_irrera.png"
       - guest: "Conan O'Brien"
+        thumbnail: "s4e10_conan_o_brien.png"
 
   - title: "Alibi"
     link: "https://www.youtube.com/watch?v=U_lN6_eRkG0&t=0"
@@ -632,8 +635,14 @@ episodes:
     rows:
       - highlights:
           - text: "Ben thinks Dr. Katz is the suspect when a bald man in his late 40s damages a mailbox."
+        thumbnail: "s4e11_mailbox.png"
       - guest: "Jeff Garlin"
+        thumbnail: "s4e11_jeff_garlin.png"
       - guest: "Tony V."
+        thumbnail: "s4e11_tony_v.png"
+        highlights:
+          - text: "Tony talks about running over cardboard on the highway."
+            link: "https://youtu.be/U_lN6_eRkG0?t=425"
 
   - title: "Ben-Centennial"
     link: "https://www.youtube.com/watch?v=Ie_KVeWkBPo&t=0"
@@ -642,8 +651,14 @@ episodes:
     rows:
       - highlights:
           - text: "Ben turns 25. Laura rescues a bird."
-      - guest: "Sam Brown"
+        thumbnail: "s4e12_bird.png"
       - guest: "The Smothers Brothers"
+        thumbnail: "s4e12_smothers_brothers.png"
+      - guest: "Sam Brown"
+        thumbnail: "s4e12_sam_brown.png"
+        highlights:
+          - text: "Sam is not the bull."
+            link: "https://youtu.be/Ie_KVeWkBPo?t=606"
 
   - title: "Undercover"
     link: "https://www.youtube.com/watch?v=0wGWIgVvzjs&t=0"
@@ -652,9 +667,13 @@ episodes:
     rows:
       - highlights:
           - text: "Ben tries to figure out why Laura is calling out from work."
+        thumbnail: "s4e13_ben_undercover.png"
       - guest: "Mark Pitta"
-      - guest: "Richard Lewis"
+        thumbnail: "s4e13_mark_pitta.png"
       - guest: "Ron Lynch"
+        thumbnail: "s4e13_ron_lynch.png"
+      - guest: "Richard Lewis"
+        thumbnail: "s4e13_richard_lewis.png"
 
   - title: "Old Man"
     link: "https://www.youtube.com/watch?v=aVqJTmaWJHQ&t=0"
@@ -663,9 +682,13 @@ episodes:
     rows:
       - highlights:
           - text: "Ben thinks it is time for Dr. Katz to retire."
-      - guest: "Robert Klein"
-      - guest: "Gilbert Gottfried"
+        thumbnail: "s5e1_katz_sleepy.png"
       - guest: "Jim Gaffigan"
+        thumbnail: "s5e1_jim_gaffigan.png"
+      - guest: "Gilbert Gottfried"
+        thumbnail: "s5e1_gilbert_gottfried.png"
+      - guest: "Robert Klein"
+        thumbnail: "s5e1_robert_klein.png"
 
   - title: "Fanny Pack"
     link: "https://www.youtube.com/watch?v=aJlKDkXoa0I&t=0"
@@ -674,8 +697,14 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz begins wearing a fanny pack."
+        thumbnail: "s5e2_fanny_pack.png"
       - guest: "Denis Leary"
+        thumbnail: "s5e2_denis_leary.png"
+        highlights:
+          - text: "Don't buy the toys that make the noise."
+            link: "https://youtu.be/aJlKDkXoa0I?t=294"
       - guest: "James Leemer"
+        thumbnail: "s5e2_james_leemer.png"
 
   - title: "Metaphors"
     link: "https://www.youtube.com/watch?v=L6V0ZgCPvh8&t=0"
@@ -684,8 +713,14 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz and Ben start drinking more coffee than usual."
+        thumbnail: "s5e3_ben.png"
       - guest: "Brian Regan"
+        thumbnail: "s5e3_brian_regan.png"
+        highlights:
+          - text: "When's that baby due?"
+            link: "https://youtu.be/L6V0ZgCPvh8?t=304"
       - guest: "David Duchovny"
+        thumbnail: "s5e3_david_duchovny.png"
 
   - title: "Movies"
     link: "https://www.youtube.com/watch?v=UK1zaQD5Mmk&t=0"
@@ -694,8 +729,11 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz and Ben are addicted to movies."
+        thumbnail: "s5e4_movies.png"
       - guest: "Sam Brown"
+        thumbnail: "s5e4_sam_brown.png"
       - guest: "Patton Oswalt"
+        thumbnail: "s5e4_patton_oswalt.png"
 
   - title: "Ticket"
     link: "https://www.youtube.com/watch?v=Xg5q-nkLRj0&t=0"
