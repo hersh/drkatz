@@ -562,9 +562,16 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz meets with a former patient and love interest, Sharon Meyers."
-      - guest: "Al Franken"
-      - guest: "Bobby Slayton"
+        thumbnail: "s4e6_katz.png"
       - guest: "Todd Barry"
+        thumbnail: "s4e6_todd_barry.png"
+      - guest: "Bobby Slayton"
+        thumbnail: "s4e6_bobby_slayton.png"
+        highlights:
+          - text: "Bobby does voice exercises."
+            link: "https://youtu.be/-WD0_CWJu_U?t=225"
+      - guest: "Al Franken"
+        thumbnail: "s4e6_al_franken.png"
 
   - title: "Mask"
     link: "https://www.youtube.com/watch?v=7qGESJf8qus&t=0"
@@ -573,8 +580,11 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz takes a class to learn about making masks."
+        thumbnail: "s4e7_ben_mask.png"
       - guest: "Steven Wright"
+        thumbnail: "s4e7_steven_wright.png"
       - guest: "Mark Schiff"
+        thumbnail: "s4e7_mark_schiff.png"
 
   - title: "Closets"
     link: "https://www.youtube.com/watch?v=ptmwDAg-Fls&t=0"
@@ -583,8 +593,14 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz asks Ben to help him reorganize his bedroom closet."
+        thumbnail: "s4e8_closet.png"
       - guest: "Elayne Boosler"
+        thumbnail: "s4e8_elayne_boosler.png"
       - guest: "Michael Rowe"
+        thumbnail: "s4e8_michael_rowe.png"
+        highlights:
+          - text: "Mike doesn't do drugs because of the films they showed him in high school."
+            link: "https://youtu.be/ptmwDAg-Fls?t=558"
 
   - title: "Wild Weekend"
     link: "https://www.youtube.com/watch?v=Hb53LO8OpEg&t=0"
@@ -593,8 +609,11 @@ episodes:
     rows:
       - highlights:
           - text: "Ben wants to go camping and hiking."
+        thumbnail: "s4e9_ben_camera.png"
       - guest: "Don Gavin"
+        thumbnail: "s4e9_don_gavin.png"
       - guest: "Robert Schimmel"
+        thumbnail: "s4e9_robert_schimmel.png"
 
   - title: "Chopper"
     link: "https://www.youtube.com/watch?v=I2h0QEC42bQ&t=0"
