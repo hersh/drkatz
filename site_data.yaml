@@ -874,19 +874,27 @@ episodes:
       - highlights:
           - text: "Dr. Katz learns how to waltz."
           - text: "First appearance of Todd the Video Store Clerk, played by Todd Barry."
-      - guest: "Ron Lynch"
+        thumbnail: "s5e14_waltz.png"
       - guest: "Susie Essman"
+        thumbnail: "s5e14_susie_essman.png"
+      - guest: "Ron Lynch"
+        thumbnail: "s5e14_ron_lynch.png"
+      - guest: "Todd Barry"
+        thumbnail: "s5e14_todd_barry.png"
 
   - title: "Anniversary"
     link: "https://www.youtube.com/watch?v=_6_BxSBQPs4&t=0"
     code: "S5E15"
-    
+
     date: "October 12, 1998"
     rows:
       - highlights:
           - text: "Dr. Katz's anniversary approaches."
+        thumbnail: "s5e15_katz.png"
       - guest: "Dom Irrera"
+        thumbnail: "s5e15_dom_irrera.png"
       - guest: "Bonnie McFarlane"
+        thumbnail: "s5e15_bonnie_mcfarlane.png"
 
   - title: "Community Theater"
     link: "https://www.youtube.com/watch?v=sggMsoHKaU4&t=0"
