@@ -787,8 +787,16 @@ episodes:
       - highlights:
           - text: "Ben babysits the neighbor's four-year-old son."
           - text: "Laura tells Dr. Katz that the office received a death threat."
+        thumbnail: "s5e8_ben_babysitting.png"
       - guest: "Brian Regan"
+        thumbnail: "s5e8_brian_regan.png"
+        highlights:
+          - text: "Brian tries to ship some boxes, but has trouble with the girth formula."
+            link: "https://youtu.be/XOQ_fjCB5Fo?t=127"
+          - text: "He needs to get his phone turned on."
+            link: "https://youtu.be/XOQ_fjCB5Fo?t=754"
       - guest: "Paul Kozlowski"
+        thumbnail: "s5e8_paul_kozlowski.png"
 
   - title: "Miles Away"
     link: "https://www.youtube.com/watch?v=y-UMXZVAfqE&t=0"
@@ -797,8 +805,14 @@ episodes:
     rows:
       - highlights:
           - text: "Ben visits his cousin Sarah."
+        thumbnail: "s5e9_ben.png"
       - guest: "Mitch Fatel"
+        thumbnail: "s5e9_mitch_fatel.png"
       - guest: "Patton Oswalt"
+        thumbnail: "s5e9_patton_oswalt.png"
+        highlights:
+          - text: "Patton respects Paas Easter egg coloring kits."
+            link: "https://youtu.be/y-UMXZVAfqE?t=514"
 
   - title: "London Broil"
     link: "https://www.youtube.com/watch?v=l6Ecw58qIck&t=0"
@@ -807,8 +821,11 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz and Ben play games where they have to decipher clues."
+        thumbnail: "s5e10_london_broil.png"
       - guest: "Kevin Kataoka"
+        thumbnail: "s5e10_kevin_kataoka.png"
       - guest: "Brian Kiley"
+        thumbnail: "s5e10_brian_kiley.png"
 
   - title: "Feng Shui"
     link: "https://www.youtube.com/watch?v=pdWl1dMXDsg&t=0"
