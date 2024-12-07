@@ -743,8 +743,11 @@ episodes:
       - highlights:
           - text: "Dr. Katz is given a ticket for failing to stop at a stop sign."
           - text: "Laura dates a dentist."
-      - guest: "Ben Stiller"
+        thumbnail: "s5e5_cop.png"
       - guest: "Jann Karam"
+        thumbnail: "s5e5_jann_karam.png"
+      - guest: "Ben Stiller"
+        thumbnail: "s5e5_ben_stiller.png"
 
   - title: "Phone Luv"
     link: "https://www.youtube.com/watch?v=4KrSkmFWYzo&t=0"
@@ -753,8 +756,14 @@ episodes:
     rows:
       - highlights:
           - text: "Ben becomes interested in a telemarketing woman named Cindy."
+        thumbnail: "s5e6_telepurchase.png"
       - guest: "Mitch Fatel"
+        thumbnail: "s5e6_mitch_fatel.png"
       - guest: "John Pinette"
+        thumbnail: "s5e6_john_pinette.png"
+        highlights:
+          - text: "John gets saved by a girlscout."
+            link: "https://youtu.be/4KrSkmFWYzo?t=422"
 
   - title: "Chain Letter"
     link: "https://www.youtube.com/watch?v=SF4VFLR_iWk&t=0"
@@ -764,8 +773,11 @@ episodes:
       - highlights:
           - text: "Ben receives a chain letter."
           - text: "Dr. Katz sets up a retirement fund for Laura."
+        thumbnail: "s5e7_chain_letter.png"
       - guest: "Gilbert Gottfried"
+        thumbnail: "s5e7_gilbert_gottfried.png"
       - guest: "Wendy Liebman"
+        thumbnail: "s5e7_wendy_liebman.png"
 
   - title: "Babysitting Ben"
     link: "https://www.youtube.com/watch?v=XOQ_fjCB5Fo&t=0"
