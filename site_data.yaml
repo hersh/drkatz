@@ -834,8 +834,11 @@ episodes:
     rows:
       - highlights:
           - text: "Ben is interested in Feng Shui."
+        thumbnail: "s5e11_feng_shui.png"
       - guest: "Tom Kenny"
+        thumbnail: "s5e11_tom_kenny.png"
       - guest: "Harry Shearer"
+        thumbnail: "s5e11_harry_shearer.png"
 
   - title: "Alderman"
     link: "https://www.youtube.com/watch?v=2MhBY2PFrlQ&t=0"
@@ -844,8 +847,11 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz finds out the alderman he voted for is corrupt."
+        thumbnail: "s5e12_ben_campaign.png"
       - guest: "Louis C.K."
+        thumbnail: "s5e12_louis_c_k.png"
       - guest: "Sarah Silverman"
+        thumbnail: "s5e12_sarah_silverman.png"
 
   - title: "Paranoia"
     link: "https://www.youtube.com/watch?v=KENUqv4I8W0&t=0"
@@ -854,8 +860,11 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz and Ben think someone is trying to break into their apartment."
+        thumbnail: "s5e13_paranoia.png"
       - guest: "Lew Schneider"
+        thumbnail: "s5e13_lew_schneider.png"
       - guest: "David Cross"
+        thumbnail: "s5e13_david_cross.png"
 
   - title: "Waltz"
     link: "https://www.youtube.com/watch?v=FKHm0FHOsTU&t=0"
@@ -871,6 +880,7 @@ episodes:
   - title: "Anniversary"
     link: "https://www.youtube.com/watch?v=_6_BxSBQPs4&t=0"
     code: "S5E15"
+    
     date: "October 12, 1998"
     rows:
       - highlights:
