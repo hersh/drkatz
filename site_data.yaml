@@ -903,8 +903,11 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz auditions for a play at the community theater."
+        thumbnail: "s5e16_theater.png"
       - guest: "Tom Kenny"
+        thumbnail: "s5e16_tom_kenny.png"
       - guest: "Ron Lynch"
+        thumbnail: "s5e16_ron_lynch.png"
 
   - title: "Ping-Pong"
     link: "https://www.youtube.com/watch?v=SXuMvtld1_A&t=0"
@@ -913,17 +916,28 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz is challenged to a game of ping-pong by an old adversary."
+          - text: "Ben and Laura talk about opera."
+        thumbnail: "s5e17_ping_pong.png"
       - guest: "Kathy Griffin"
+        thumbnail: "s5e17_kathy_griffin.png"
       - guest: "Laura Kightlinger"
+        thumbnail: "s5e17_laura_kightlinger.png"
+      - guest: "Todd Barry"
+        thumbnail: "s5e17_todd_barry.png"
 
   - title: "Thanksgiving"
     link: "https://www.youtube.com/watch?v=YkQ5Z-_Lmp4&t=0"
     code: "S5E18"
     date: "November 23, 1998"
     rows:
-      - highlights:
+      - guest: "Carrie Fisher as Roz"
+        thumbnail: "s5e18_thanksgiving.png"
+        highlights:
           - text: "Dr. Katz's ex-wife Roz visits for Thanksgiving dinner."
       - guest: "Dom Irrera"
+        thumbnail: "s5e18_dom_irrera.png"
+      - guest: "Todd Barry"
+        thumbnail: "s5e18_todd_barry.png"
 
   - title: "Sissy Boy"
     link: "https://www.youtube.com/watch?v=RL7D6OD_LUw&t=0"
@@ -1094,6 +1108,9 @@ episodes:
       - highlights:
           - text: "Laura gets engaged to a musician. Ben visits Dr. Katz's bar and meets Julie."
       - guest: "Louis C.K."
+        highlights:
+          - text: "French interaction"
+            link: "https://youtu.be/4G3tTnT0qdo?t=298"
       - guest: "Kevin Brennan"
 
   - title: "Lerapy"
