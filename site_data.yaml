@@ -1110,8 +1110,11 @@ episodes:
     rows:
       - highlights:
           - text: "Ben panics when the TV breaks and buys a big-screen TV without Dr. Katz's permission."
+        thumbnail: "s6e11_big_tv.png"
       - guest: "Dom Irrera"
+        thumbnail: "s6e11_dom_irrera.png"
       - guest: "Al Lubel"
+        thumbnail: "s6e11_al_lubel.png"
 
   - title: "Vow of Silence"
     link: "https://www.youtube.com/watch?v=RPR3I-JrN9k&t=0"
@@ -1120,8 +1123,11 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz makes a bet with Ben to see who can go longer without reading the newspaper (Katz) or talking (Ben)."
+        thumbnail: "s6e12_silence.png"
       - guest: "Paul F. Tompkins"
+        thumbnail: "s6e12_paul_f_tompkins.png"
       - guest: "Sam Brown"
+        thumbnail: "s6e12_sam_brown.png"
 
   - title: "You're Belinda"
     link: "https://www.youtube.com/watch?v=PgB75a6SZDc&t=0"
@@ -1130,8 +1136,11 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz wants to attend a 'brief therapy' seminar in Yorba Linda, California."
+        thumbnail: "s6e13_ben.png"
       - guest: "Wanda Sykes"
+        thumbnail: "s6e13_wanda_sykes.png"
       - guest: "Rich Gustus"
+        thumbnail: "s6e13_rich_gustus.png"
 
   - title: "Radio Katz"
     link: "https://www.youtube.com/watch?v=5uw2_ii7KDA&t=0"
@@ -1140,8 +1149,14 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz is a guest host on a radio talk show."
+        thumbnail: "s6e14_radio_katz.png"
       - guest: "Dom Irrera"
+        thumbnail: "s6e14_dom_irrera.png"
+        highlights:
+          - text: "Dom's uncle Tony hated Julius Irving, Dr. J."
+            link: "https://youtu.be/5uw2_ii7KDA?t=293"
       - guest: "Julie Barr"
+        thumbnail: "s6e14_julie_barr.png"
 
   - title: "Expert Witness"
     link: "https://www.youtube.com/watch?v=f3xS7L534Y4&t=0"
@@ -1150,8 +1165,14 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz is asked to analyze a teenager and testify in court."
+        thumbnail: "s6e15_expert_witness.png"
       - guest: "Jake Johannsen"
+        thumbnail: "s6e15_jake_johannsen.png"
+        highlights:
+          - text: "The vet said to put this bad-tasting salve to put on my dog's ass."
+            link: "https://youtu.be/f3xS7L534Y4?t=866"
       - guest: "Bob Balaban"
+        thumbnail: "s6e15_bob_balaban.png"
 
   - title: "Bakery Ben"
     link: "https://www.youtube.com/watch?v=tQUOTRpJHE8&t=0"
@@ -1160,8 +1181,11 @@ episodes:
     rows:
       - highlights:
           - text: "Ben becomes an assistant at a local bakery."
-      - guest: "Catherine O'Hara"
+        thumbnail: "s6e16_baker.png"
       - guest: "Dave Attell"
+        thumbnail: "s6e16_dave_attell.png"
+      - guest: "Catherine O'Hara"
+        thumbnail: "s6e16_catherine_o_hara.png"
 
   - title: "Uncle Nothing"
     link: "https://www.youtube.com/watch?v=4G3tTnT0qdo&t=0"
@@ -1170,11 +1194,14 @@ episodes:
     rows:
       - highlights:
           - text: "Laura gets engaged to a musician. Ben visits Dr. Katz's bar and meets Julie."
+        thumbnail: "s6e17_ben_at_the_bar.png"
       - guest: "Louis C.K."
+        thumbnail: "s6e17_louis_c_k.png"
         highlights:
-          - text: "French interaction"
-            link: "https://youtu.be/4G3tTnT0qdo?t=298"
+          - text: "Louis doesn't speak French."
+            link: "https://youtu.be/4G3tTnT0qdo?t=293"
       - guest: "Kevin Brennan"
+        thumbnail: "s6e17_kevin_brennan.png"
 
   - title: "Lerapy"
     link: "https://www.youtube.com/watch?v=x-JSllAVKbM&t=0"
@@ -1183,5 +1210,8 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz tells Conan O'Brien a joke that Conan uses on his talk show without credit."
-      - guest: "Whoopi Goldberg"
+        thumbnail: "s6e18_at_the_bar.png"
       - guest: "Conan O'Brien"
+        thumbnail: "s6e18_conan_o_brien.png"
+      - guest: "Whoopi Goldberg"
+        thumbnail: "s6e18_whoopi_goldberg.png"
