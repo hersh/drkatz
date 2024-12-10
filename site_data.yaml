@@ -1064,8 +1064,11 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz begins dating an author and Ben gets nervous about it."
-      - guest: "Carol Leifer"
+        thumbnail: "s6e8_sad_movies.png"
       - guest: "Kevin Meaney"
+        thumbnail: "s6e8_kevin_meaney.png"
+      - guest: "Carol Leifer"
+        thumbnail: "s6e8_carol_leifer.png"
 
   - title: "Snow Day"
     link: "https://www.youtube.com/watch?v=EH7snNlbCmA&t=0"
@@ -1074,8 +1077,15 @@ episodes:
     rows:
       - highlights:
           - text: "The city prepares for a blizzard."
-      - guest: "Merrill Markoe"
+          - text: "Ben takes care of a neighbor's pigeons."
+        thumbnail: "s6e9_ben_snow.png"
       - guest: "Dana Gould"
+        thumbnail: "s6e9_dana_gould.png"
+        highlights:
+          - text: "Mistake!"
+            link: "https://youtu.be/EH7snNlbCmA?t=217"
+      - guest: "Merrill Markoe"
+        thumbnail: "s6e9_merrill_markoe.png"
 
   - title: "Garden"
     link: "https://www.youtube.com/watch?v=i5DKgugCI0Q&t=0"
@@ -1084,8 +1094,14 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz is interested in gardening."
+        thumbnail: "s6e10_gardening.png"
       - guest: "Mitch Hedberg"
+        thumbnail: "s6e10_mitch_hedberg.png"
+        highlights:
+          - text: "What happened to the Dufrains?"
+            link: "https://youtu.be/i5DKgugCI0Q?t=269"
       - guest: "Matt Siegel"
+        thumbnail: "s6e10_matt_siegel.png"
 
   - title: "Big TV"
     link: "https://www.youtube.com/watch?v=qdT3rxosXZo&t=0"
