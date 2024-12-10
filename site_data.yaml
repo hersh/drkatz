@@ -1051,8 +1051,11 @@ episodes:
     rows:
       - highlights:
           - text: "Dr. Katz and Ben help Laura when she goes to buy a used car."
+        thumbnail: "s6e7_used_cars.png"
       - guest: "Greg Behrendt"
+        thumbnail: "s6e7_greg_behrendt.png"
       - guest: "Ian Bagg"
+        thumbnail: "s6e7_ian_bagg.png"
 
   - title: "Ball and Chain"
     link: "https://www.youtube.com/watch?v=W3HREKO2wAo&t=0"
