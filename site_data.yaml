@@ -1035,8 +1035,14 @@ episodes:
     rows:
       - highlights:
           - text: "Laura asks Dr. Katz to sponsor her for a walk."
-      - guest: "Wanda Sykes"
+        thumbnail: "s6e6_walk.png"
       - guest: "Jon Stewart"
+        thumbnail: "s6e6_jon_stewart.png"
+        highlights:
+          - text: "Jon takes his cat to the vet."
+            link: "https://youtu.be/WArUgW2WfQ8?t=60"
+      - guest: "Wanda Sykes"
+        thumbnail: "s6e6_wanda_sykes.png"
 
   - title: "Used Car"
     link: "https://www.youtube.com/watch?v=-giw64WO0zc&t=0"
