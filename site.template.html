@@ -53,9 +53,10 @@
           padding-bottom: 0px;
         }
         .thumbnails img {
-            width: 100%;
+            width: 150px;
             height: auto;
             border-radius: 5px;
+            vertical-align: text-top;
         }
         .title {
           color: #ddd;
@@ -84,56 +85,37 @@
   <h1>Dr Katz Professional Therapist</h1>
   <h2>episode index</h2>
   <table>
-      <thead>
-          <tr>
-              <th style="width:15%;">Episode</th>
-              <th style="width:15%;"></th>
-              <th>Guests</th>
-              <th>Highlights</th>
-          </tr>
-      </thead>
-      <tbody>
-          {{ range $episode := .Episodes }}
-            {{ range $index, $row := $episode.Rows }}
-            <tr class="{{ $episode.RowClass }}">
-              {{ if eq $index 0 }}
-              <td rowspan="{{ $episode.RowSpan }}">
-                  <ul>
-                      <li class="title">
-                        {{ if $episode.Link }}
-                          <a href="{{ $episode.Link }}">{{ $episode.Title }}</a>
-                        {{ else }}
-                          {{ $episode.Title }}
-                        {{ end }}
-                      </li>
-                      <li>{{ $episode.Date }}</li>
-                      <li>{{ $episode.Code }}</li>
-                  </ul>
-              </td>
-              {{ end }}
-              <td class="thumbnails">
-                {{ if $row.Thumbnail }}
-                  <img src="images/{{ $row.Thumbnail }}" alt="Thumbnail">
-                {{ end }}
-              </td>
-              <td>
-                  <ul class="no-wrap">
-                      <li>{{ $row.Guest }}</li>
-                  </ul>
-              </td>
-              <td>
-                  {{ range $row.Highlights }}
-                    {{ if .Link }}
-                      <a href="{{ .Link }}">{{ .Text }}</a>
-                    {{ else }}
-                      {{ .Text }}
-                    {{ end }}
-                  {{ end }}
-              </td>
-          </tr>
+    {{ range $episode := .Episodes }}
+      <tr class="{{ $episode.RowClass }}">
+        <td colspan="2" class="title">
+          {{ if $episode.Link }}
+            <a href="{{ $episode.Link }}">{{ $episode.Title }} {{ $episode.Code }}</a>
+          {{ else }}
+            {{ $episode.Title }} {{ $episode.Code }}
           {{ end }}
-        {{ end }}
-      </tbody>
+          {{ $episode.Date }}
+        </td>
+      </tr>
+      {{ range $index, $row := $episode.Rows }}
+        <tr class="{{ $episode.RowClass }}">
+          <td class="thumbnails">
+            {{ if $row.Thumbnail }}
+              <img src="images/{{ $row.Thumbnail }}" alt="Thumbnail">
+            {{ end }}
+            <span class="no-wrap">{{ $row.Guest }}</span>
+          </td>
+          <td>
+              {{ range $row.Highlights }}
+                {{ if .Link }}
+                  <a href="{{ .Link }}">{{ .Text }}</a>
+                {{ else }}
+                  {{ .Text }}
+                {{ end }}
+              {{ end }}
+          </td>
+        </tr>
+      {{ end }}
+    {{ end }}
   </table>
 </body>
 </html>
