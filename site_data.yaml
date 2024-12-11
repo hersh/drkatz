@@ -389,6 +389,9 @@ episodes:
         thumbnail: "s3e7_fred_stoller.png"
       - guest: "Jake Johannsen"
         thumbnail: "s3e7_jake_johannsen.png"
+        highlights:
+          - text: "What is that white ball when you bite into a hot dog?"
+            link: "https://youtu.be/8PMESZh6nzk?t=290"
 
   - title: "Studio Guy"
     link: "https://www.youtube.com/watch?v=v59eTEXd78c&t=0"
