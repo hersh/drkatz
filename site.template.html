@@ -29,6 +29,7 @@
         }
         th, td {
             padding: 8px;
+            padding-top: 0px;
             text-align: left;
             vertical-align: top;
         }
@@ -46,11 +47,12 @@
             padding: 0;
             margin: 0;
         }
-        .no-wrap {
+        .guest {
             white-space: nowrap;
+            font-weight: bold;
         }
         .thumbnails {
-          padding-bottom: 0px;
+          padding-top: 0px;
         }
         .thumbnails img {
             width: 150px;
@@ -61,6 +63,8 @@
         .title {
           color: #ddd;
           font-weight: bold;
+          padding-top: 8px;
+          padding-bottom: 2px;
         }
         a {
             color: #aaf;
@@ -102,16 +106,18 @@
             {{ if $row.Thumbnail }}
               <img src="images/{{ $row.Thumbnail }}" alt="Thumbnail">
             {{ end }}
-            <span class="no-wrap">{{ $row.Guest }}</span>
           </td>
           <td>
-              {{ range $row.Highlights }}
-                {{ if .Link }}
-                  <a href="{{ .Link }}">{{ .Text }}</a>
-                {{ else }}
-                  {{ .Text }}
-                {{ end }}
+            {{ if $row.Guest }}
+              <span class="guest">{{ $row.Guest }}</span><br/>
+            {{ end }}
+            {{ range $row.Highlights }}
+              {{ if .Link }}
+                <a href="{{ .Link }}">{{ .Text }}</a>
+              {{ else }}
+                {{ .Text }}
               {{ end }}
+            {{ end }}
           </td>
         </tr>
       {{ end }}

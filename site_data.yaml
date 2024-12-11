@@ -930,10 +930,9 @@ episodes:
     code: "S5E18"
     date: "November 23, 1998"
     rows:
-      - guest: "Carrie Fisher as Roz"
-        thumbnail: "s5e18_thanksgiving.png"
+      - thumbnail: "s5e18_thanksgiving.png"
         highlights:
-          - text: "Dr. Katz's ex-wife Roz visits for Thanksgiving dinner."
+          - text: "Dr. Katz's ex-wife Roz (<b>Carrie Fisher</b>) visits for Thanksgiving dinner."
           - text: "Roz is under the impression that Ben and Laura are a couple."
             link: "https://youtu.be/YkQ5Z-_Lmp4?t=650"
       - guest: "Dom Irrera"

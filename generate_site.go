@@ -2,42 +2,43 @@ package main
 
 import (
 	"html/template"
-	"os"
-	"log"
-	"github.com/goccy/go-yaml"
 	"io/ioutil"
+	"log"
+	"os"
+
+	"github.com/goccy/go-yaml"
 )
 
 // Structs for the YAML data
 type Highlight struct {
-	Link string `yaml:"link"`
-	Text string `yaml:"text"`
+	Link string        `yaml:"link"`
+	Text template.HTML `yaml:"text"`
 }
 
 type ThumbnailRow struct {
-	Thumbnail  string      `yaml:"thumbnail"`
-	Guest      string      `yaml:"guest"`
+	Thumbnail  string       `yaml:"thumbnail"`
+	Guest      string       `yaml:"guest"`
 	Highlights []*Highlight `yaml:"highlights"`
 }
 
 type Episode struct {
-	RowClass string  	      `yaml:"rowClass"`
-	Title    string  	      `yaml:"title"`
-	Link     string  	      `yaml:"link"`
-	Date     string  	      `yaml:"date"`
-	Code     string  	      `yaml:"code"`
-	RowSpan  int     	      `yaml:"rowSpan"`
+	RowClass string          `yaml:"rowClass"`
+	Title    string          `yaml:"title"`
+	Link     string          `yaml:"link"`
+	Date     string          `yaml:"date"`
+	Code     string          `yaml:"code"`
+	RowSpan  int             `yaml:"rowSpan"`
 	Rows     []*ThumbnailRow `yaml:"rows"`
 }
 
 type SiteData struct {
-	Episodes  []*Episode `yaml:"episodes"`
+	Episodes []*Episode `yaml:"episodes"`
 }
 
 func fluffUpSiteData(data *SiteData) {
 	evenOdd := []string{"even", "odd"}
 	for index, episode := range data.Episodes {
-		episode.RowClass = evenOdd[index % 2]
+		episode.RowClass = evenOdd[index%2]
 		episode.RowSpan = len(episode.Rows)
 	}
 }
