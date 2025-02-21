@@ -842,6 +842,9 @@ episodes:
         thumbnail: "s5e11_feng_shui.png"
       - guest: "Tom Kenny"
         thumbnail: "s5e11_tom_kenny.png"
+        highlights:
+          - text: "Tom broke both his arms and discovered why people get married."
+            link: "https://youtu.be/pdWl1dMXDsg?t=857"
       - guest: "Harry Shearer"
         thumbnail: "s5e11_harry_shearer.png"
 
