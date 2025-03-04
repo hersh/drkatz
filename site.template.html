@@ -92,19 +92,49 @@
             top: 20px;
             right: 20px;
             z-index: 1000;
+            display: flex;
+            align-items: center;
+            background-color: #333;
+            border-radius: 25px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            padding: 5px;
+            max-width: 400px;
+            width: auto;
+        }
+        
+        #search-container.expanded {
+            width: calc(100% - 40px);
+            max-width: 400px;
+        }
+
+        #search-input {
+            flex-grow: 1;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 20px;
+            background-color: #444;
+            color: #ddd;
+            font-size: 16px;
+            display: none;
+            margin-right: 5px;
+        }
+
+        #search-input:focus {
+            outline: none;
+            background-color: #555;
         }
 
         #search-icon {
             background-color: #444;
             border: none;
             border-radius: 50%;
-            width: 50px;
-            height: 50px;
+            width: 40px;
+            height: 40px;
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            flex-shrink: 0;
             padding: 0;
         }
 
@@ -113,44 +143,20 @@
         }
         
         #search-icon img {
-            width: 24px;
-            height: 24px;
-        }
-
-        #search-bar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            padding: 15px;
-            background-color: #333;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-            z-index: 999;
-            display: none;
-            text-align: center;
-        }
-
-        #search-input {
-            width: 80%;
-            max-width: 800px;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            background-color: #444;
-            color: #ddd;
-            font-size: 16px;
-            margin: 0 auto;
-        }
-
-        #search-input:focus {
-            outline: none;
-            background-color: #555;
+            width: 20px;
+            height: 20px;
         }
 
         #results-info {
-            text-align: center;
-            margin: 10px 0;
+            position: fixed;
+            top: 65px;
+            right: 20px;
+            background-color: #333;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
             display: none;
+            z-index: 999;
         }
 
         .no-results {
@@ -162,18 +168,18 @@
 </head>
 <body>
     <div id="search-container">
+        <input type="text" id="search-input" placeholder="Search episodes...">
         <button id="search-icon" aria-label="Search">
             <img src="search_icon.svg" alt="Search" id="search-img">
         </button>
     </div>
-    <div id="search-bar">
-        <input type="text" id="search-input" placeholder="Search episodes...">
-    </div>
+
+    <div id="results-info"></div>
+    <div class="no-results">No episodes found matching your search</div>
 
     <h1>Dr Katz Professional Therapist</h1>
     <h2>episode index</h2>
-    <div id="results-info"></div>
-    <div class="no-results">No episodes found matching your search</div>
+    
     <div id="episodes-container">
         <table id="episodes-table">
             {{ range $episode := .Episodes }}
@@ -217,48 +223,56 @@
         const episodeData = {{ .EpisodesJSON }};
 
         // DOM elements
+        const searchContainer = document.getElementById('search-container');
         const searchIcon = document.getElementById('search-icon');
         const searchImg = document.getElementById('search-img');
-        const searchBar = document.getElementById('search-bar');
         const searchInput = document.getElementById('search-input');
         const resultsInfo = document.getElementById('results-info');
         const noResults = document.querySelector('.no-results');
-        const isSearchOpen = false;
+        let isSearchOpen = false;
         
         // Toggle search bar
-        searchIcon.addEventListener('click', () => {
-            const isSearchOpen = searchBar.style.display === 'block';
+        searchIcon.addEventListener('click', toggleSearch);
+        
+        // Function to toggle search visibility
+        function toggleSearch() {
+            isSearchOpen = !isSearchOpen;
             
             if (isSearchOpen) {
-                // Close search
-                searchBar.style.display = 'none';
-                document.body.style.paddingTop = '0';
-                searchInput.value = '';
-                filterEpisodes('');
-                // Change icon back to search
-                searchImg.src = 'search_icon.svg';
-                searchImg.alt = 'Search';
-            } else {
                 // Open search
-                searchBar.style.display = 'block';
+                searchContainer.classList.add('expanded');
+                searchInput.style.display = 'block';
                 searchInput.focus();
-                document.body.style.paddingTop = '70px';
                 // Change icon to X
                 searchImg.src = 'x_icon.svg';
                 searchImg.alt = 'Close';
-            }
-        });
-
-        // Listen for Escape key to close search
-        document.addEventListener('keydown', (event) => {
-            if (event.key === 'Escape' && searchBar.style.display === 'block') {
-                searchBar.style.display = 'none';
-                document.body.style.paddingTop = '0';
+            } else {
+                // Close search
+                searchContainer.classList.remove('expanded');
+                searchInput.style.display = 'none';
                 searchInput.value = '';
                 filterEpisodes('');
                 // Change icon back to search
                 searchImg.src = 'search_icon.svg';
                 searchImg.alt = 'Search';
+            }
+        }
+
+        // Listen for Escape key to close search
+        document.addEventListener('keydown', (event) => {
+            // Close search on Escape key
+            if (event.key === 'Escape' && isSearchOpen) {
+                toggleSearch();
+            }
+            
+            // Open search on Ctrl+F
+            if ((event.ctrlKey || event.metaKey) && event.key === 'f') {
+                event.preventDefault();
+                if (!isSearchOpen) {
+                    toggleSearch();
+                } else {
+                    searchInput.focus();
+                }
             }
         });
 
