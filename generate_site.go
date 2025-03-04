@@ -1,38 +1,41 @@
 package main
 
 import (
+	"encoding/json"
 	"html/template"
 	"io/ioutil"
 	"log"
 	"os"
+	"strings"
 
 	"github.com/goccy/go-yaml"
 )
 
 // Structs for the YAML data
 type Highlight struct {
-	Link string        `yaml:"link"`
-	Text template.HTML `yaml:"text"`
+	Link string        `yaml:"link" json:"link,omitempty"`
+	Text template.HTML `yaml:"text" json:"text"`
 }
 
 type ThumbnailRow struct {
-	Thumbnail  string       `yaml:"thumbnail"`
-	Guest      string       `yaml:"guest"`
-	Highlights []*Highlight `yaml:"highlights"`
+	Thumbnail  string       `yaml:"thumbnail" json:"-"` // Exclude from search
+	Guest      string       `yaml:"guest" json:"guest,omitempty"`
+	Highlights []*Highlight `yaml:"highlights" json:"highlights,omitempty"`
 }
 
 type Episode struct {
-	RowClass string          `yaml:"rowClass"`
-	Title    string          `yaml:"title"`
-	Link     string          `yaml:"link"`
-	Date     string          `yaml:"date"`
-	Code     string          `yaml:"code"`
-	RowSpan  int             `yaml:"rowSpan"`
-	Rows     []*ThumbnailRow `yaml:"rows"`
+	RowClass string          `yaml:"rowClass" json:"-"` // Exclude from search
+	Title    string          `yaml:"title" json:"title"`
+	Link     string          `yaml:"link" json:"-"` // Exclude from search
+	Date     string          `yaml:"date" json:"date"`
+	Code     string          `yaml:"code" json:"code"`
+	RowSpan  int             `yaml:"rowSpan" json:"-"` // Exclude from search
+	Rows     []*ThumbnailRow `yaml:"rows" json:"rows"`
 }
 
 type SiteData struct {
-	Episodes []*Episode `yaml:"episodes"`
+	Episodes     []*Episode `yaml:"episodes"`
+	EpisodesJSON template.JS
 }
 
 func fluffUpSiteData(data *SiteData) {
@@ -41,6 +44,20 @@ func fluffUpSiteData(data *SiteData) {
 		episode.RowClass = evenOdd[index%2]
 		episode.RowSpan = len(episode.Rows)
 	}
+
+	// Convert episodes to JSON for client-side search
+	jsonData, err := json.Marshal(data.Episodes)
+	if err != nil {
+		log.Fatalf("Error marshaling episodes to JSON: %v", err)
+	}
+
+	// Clean HTML entities in the JSON string to prevent template escaping issues
+	jsonString := string(jsonData)
+	jsonString = strings.ReplaceAll(jsonString, "\\u0026", "&")
+	jsonString = strings.ReplaceAll(jsonString, "\\u003c", "<")
+	jsonString = strings.ReplaceAll(jsonString, "\\u003e", ">")
+
+	data.EpisodesJSON = template.JS(jsonString)
 }
 
 func main() {

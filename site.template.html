@@ -36,10 +36,10 @@
             vertical-align: top;
         }
         .even {
-          background-color: #333;
+            background-color: #333;
         }
         .odd {
-          background-color: #282828;
+            background-color: #282828;
         }
         th {
             background-color: #333;
@@ -54,7 +54,7 @@
             font-weight: bold;
         }
         .thumbnails {
-          padding-top: 0px;
+            padding-top: 0px;
         }
         .thumbnails img {
             width: 150px;
@@ -63,10 +63,10 @@
             vertical-align: text-top;
         }
         .title {
-          color: #ddd;
-          font-weight: bold;
-          padding-top: 8px;
-          padding-bottom: 2px;
+            color: #ddd;
+            font-weight: bold;
+            padding-top: 8px;
+            padding-bottom: 2px;
         }
         a {
             color: #aaf;
@@ -85,45 +85,298 @@
         a:active {
             color: #f9a;
         }
+
+        /* Search styles */
+        #search-container {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        #search-icon {
+            background-color: #444;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            padding: 0;
+        }
+
+        #search-icon:hover {
+            background-color: #555;
+        }
+        
+        #search-icon img {
+            width: 24px;
+            height: 24px;
+        }
+
+        #search-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 15px;
+            background-color: #333;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            z-index: 999;
+            display: none;
+            text-align: center;
+        }
+
+        #search-input {
+            width: 80%;
+            max-width: 800px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #444;
+            color: #ddd;
+            font-size: 16px;
+            margin: 0 auto;
+        }
+
+        #search-input:focus {
+            outline: none;
+            background-color: #555;
+        }
+
+        #results-info {
+            text-align: center;
+            margin: 10px 0;
+            display: none;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 20px;
+            display: none;
+        }
     </style>
 </head>
 <body>
-  <h1>Dr Katz Professional Therapist</h1>
-  <h2>episode index</h2>
-  <table>
-    {{ range $episode := .Episodes }}
-      <tr class="{{ $episode.RowClass }}">
-        <td colspan="2" class="title">
-          {{ if $episode.Link }}
-            <a href="{{ $episode.Link }}">{{ $episode.Title }} {{ $episode.Code }}</a>
-          {{ else }}
-            {{ $episode.Title }} {{ $episode.Code }}
-          {{ end }}
-          {{ $episode.Date }}
-        </td>
-      </tr>
-      {{ range $index, $row := $episode.Rows }}
-        <tr class="{{ $episode.RowClass }}">
-          <td class="thumbnails">
-            {{ if $row.Thumbnail }}
-              <img src="images/{{ $row.Thumbnail }}" alt="Thumbnail">
+    <div id="search-container">
+        <button id="search-icon" aria-label="Search">
+            <img src="search_icon.svg" alt="Search" id="search-img">
+        </button>
+    </div>
+    <div id="search-bar">
+        <input type="text" id="search-input" placeholder="Search episodes...">
+    </div>
+
+    <h1>Dr Katz Professional Therapist</h1>
+    <h2>episode index</h2>
+    <div id="results-info"></div>
+    <div class="no-results">No episodes found matching your search</div>
+    <div id="episodes-container">
+        <table id="episodes-table">
+            {{ range $episode := .Episodes }}
+                <tr class="episode-row {{ $episode.RowClass }}" data-episode-id="{{ $episode.Code }}">
+                    <td colspan="2" class="title">
+                        {{ if $episode.Link }}
+                            <a href="{{ $episode.Link }}">{{ $episode.Title }} {{ $episode.Code }}</a>
+                        {{ else }}
+                            {{ $episode.Title }} {{ $episode.Code }}
+                        {{ end }}
+                        {{ $episode.Date }}
+                    </td>
+                </tr>
+                {{ range $index, $row := $episode.Rows }}
+                    <tr class="episode-row {{ $episode.RowClass }}" data-episode-id="{{ $episode.Code }}">
+                        <td class="thumbnails">
+                            {{ if $row.Thumbnail }}
+                                <img src="images/{{ $row.Thumbnail }}" alt="Thumbnail">
+                            {{ end }}
+                        </td>
+                        <td>
+                            {{ if $row.Guest }}
+                                <span class="guest">{{ $row.Guest }}</span><br/>
+                            {{ end }}
+                            {{ range $row.Highlights }}
+                                {{ if .Link }}
+                                    <a href="{{ .Link }}">{{ .Text }}</a>
+                                {{ else }}
+                                    {{ .Text }}
+                                {{ end }}
+                            {{ end }}
+                        </td>
+                    </tr>
+                {{ end }}
             {{ end }}
-          </td>
-          <td>
-            {{ if $row.Guest }}
-              <span class="guest">{{ $row.Guest }}</span><br/>
-            {{ end }}
-            {{ range $row.Highlights }}
-              {{ if .Link }}
-                <a href="{{ .Link }}">{{ .Text }}</a>
-              {{ else }}
-                {{ .Text }}
-              {{ end }}
-            {{ end }}
-          </td>
-        </tr>
-      {{ end }}
-    {{ end }}
-  </table>
+        </table>
+    </div>
+
+    <script>
+        // Episode data will be populated by Go template
+        const episodeData = {{ .EpisodesJSON }};
+
+        // DOM elements
+        const searchIcon = document.getElementById('search-icon');
+        const searchImg = document.getElementById('search-img');
+        const searchBar = document.getElementById('search-bar');
+        const searchInput = document.getElementById('search-input');
+        const resultsInfo = document.getElementById('results-info');
+        const noResults = document.querySelector('.no-results');
+        const isSearchOpen = false;
+        
+        // Toggle search bar
+        searchIcon.addEventListener('click', () => {
+            const isSearchOpen = searchBar.style.display === 'block';
+            
+            if (isSearchOpen) {
+                // Close search
+                searchBar.style.display = 'none';
+                document.body.style.paddingTop = '0';
+                searchInput.value = '';
+                filterEpisodes('');
+                // Change icon back to search
+                searchImg.src = 'search_icon.svg';
+                searchImg.alt = 'Search';
+            } else {
+                // Open search
+                searchBar.style.display = 'block';
+                searchInput.focus();
+                document.body.style.paddingTop = '70px';
+                // Change icon to X
+                searchImg.src = 'x_icon.svg';
+                searchImg.alt = 'Close';
+            }
+        });
+
+        // Listen for Escape key to close search
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && searchBar.style.display === 'block') {
+                searchBar.style.display = 'none';
+                document.body.style.paddingTop = '0';
+                searchInput.value = '';
+                filterEpisodes('');
+                // Change icon back to search
+                searchImg.src = 'search_icon.svg';
+                searchImg.alt = 'Search';
+            }
+        });
+
+        // Filter episodes based on search input
+        searchInput.addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+            filterEpisodes(searchTerm);
+        });
+
+        function filterEpisodes(searchTerm) {
+            const rows = document.querySelectorAll('.episode-row');
+            const episodeCodes = new Set();
+            let matchCount = 0;
+            
+            if (searchTerm === '') {
+                // Show all episodes
+                rows.forEach(row => row.style.display = '');
+                resultsInfo.style.display = 'none';
+                noResults.style.display = 'none';
+                applyAlternatingStyles();
+                return;
+            }
+
+            // First pass: identify matching episodes
+            episodeData.forEach(episode => {
+                let matches = false;
+                
+                // Check episode title and date
+                if (episode.title.toLowerCase().includes(searchTerm) || 
+                    episode.code.toLowerCase().includes(searchTerm) ||
+                    episode.date.toLowerCase().includes(searchTerm)) {
+                    matches = true;
+                }
+                
+                // Check guests and highlights
+                if (!matches) {
+                    for (const row of episode.rows) {
+                        if (row.guest && row.guest.toLowerCase().includes(searchTerm)) {
+                            matches = true;
+                            break;
+                        }
+                        
+                        if (row.highlights) {
+                            for (const highlight of row.highlights) {
+                                if (highlight.text.toLowerCase().includes(searchTerm)) {
+                                    matches = true;
+                                    break;
+                                }
+                            }
+                            if (matches) break;
+                        }
+                    }
+                }
+                
+                if (matches) {
+                    episodeCodes.add(episode.code);
+                    matchCount++;
+                }
+            });
+
+            // Second pass: show/hide rows based on matches
+            rows.forEach(row => {
+                const episodeId = row.getAttribute('data-episode-id');
+                if (episodeCodes.has(episodeId)) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+            
+            // Apply alternating styles to visible rows
+            applyAlternatingStyles();
+
+            // Update results info
+            if (matchCount > 0) {
+                resultsInfo.textContent = `Found ${matchCount} matching episode${matchCount === 1 ? '' : 's'}`;
+                resultsInfo.style.display = 'block';
+                noResults.style.display = 'none';
+            } else {
+                noResults.style.display = 'block';
+                resultsInfo.style.display = 'none';
+            }
+        }
+        
+        // Function to apply alternating styles to visible rows
+        function applyAlternatingStyles() {
+            const visibleEpisodeCodes = new Set();
+            const rows = document.querySelectorAll('.episode-row');
+            
+            // First pass: collect visible episode codes
+            rows.forEach(row => {
+                if (row.style.display !== 'none') {
+                    visibleEpisodeCodes.add(row.getAttribute('data-episode-id'));
+                }
+            });
+            
+            // Second pass: apply alternating styles
+            let index = 0;
+            let currentEpisodeCode = null;
+            
+            rows.forEach(row => {
+                if (row.style.display !== 'none') {
+                    const episodeCode = row.getAttribute('data-episode-id');
+                    
+                    // If this is a new episode, increment the index
+                    if (episodeCode !== currentEpisodeCode) {
+                        currentEpisodeCode = episodeCode;
+                        index++;
+                    }
+                    
+                    // Remove existing odd/even classes
+                    row.classList.remove('odd', 'even');
+                    
+                    // Add appropriate class based on index
+                    row.classList.add(index % 2 === 0 ? 'even' : 'odd');
+                }
+            });
+        }
+    </script>
 </body>
 </html>
