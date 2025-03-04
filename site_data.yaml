@@ -423,8 +423,8 @@ episodes:
       - guest: "Margaret Smith"
         thumbnail: "s3e8_margaret_smith.png"
 
-  - title: "L'il Helper"
-    link: "https://www.youtube.com/watch?v=gYKR5_FguvQ&t=0"
+  - title: "Lil Helper"
+    link: "https://www.youtube.com/watch?v=R-PYsn-GFBs&t=0"
     code: "S3E10"
     date: "February 2, 1997"
     rows:
@@ -435,7 +435,7 @@ episodes:
         thumbnail: "s3e10_ken_rogerson.png"
         highlights:
           - text: "Ken shot his own turkey last thanksgiving."
-            link: "https://youtu.be/gYKR5_FguvQ?t=444"
+            link: "https://youtu.be/R-PYsn-GFBs?t=442"
       - guest: "Lizz Winstead"
         thumbnail: "s3e10_lizz_winstead.png"
       - guest: "David Juskow"
